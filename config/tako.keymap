@@ -88,7 +88,7 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE               &kp PAGE_UP  &kp HOME        &kp UP_ARROW       &hm LEFT_COMMAND END  &hm LEFT_ALT BACKSPACE
 &kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp PG_DN    &kp LEFT_ARROW  &hm LEFT_GUI DOWN  &kp RIGHT             &hm LEFT_SHIFT ENTER
-&kp F11       &kp F12       &kp N9        &kp N0        &reset                  &kp SQT      &kp SLASH       &kp COMMA          &kp PERIOD            &trans
+&kp F11       &kp F12       &kp N9        &kp N0        &sys_reset              &kp SQT      &kp SLASH       &kp COMMA          &kp PERIOD            &trans
                                           &trans        &trans                  &trans       &trans
             >;
         };
