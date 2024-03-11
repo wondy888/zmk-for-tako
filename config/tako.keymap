@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&hm ESCAPE Q  &kp W  &kp E  &kp R               &kp T                 &kp Y             &kp U        &kp I                 &kp O           &kp P
-&hm LCTRL A   &kp S  &kp D  &kp F               &kp G                 &kp H             &kp J        &kp K                 &kp L           &kp LSHIFT
-&kp Z         &kp X  &kp C  &kp V               &kp B                 &kp N             &kp M        &hm LEFT_COMMAND TAB  &hm LSHIFT TAB  &hm LCTRL ESCAPE
-                            &hm LCTRL LEFT_GUI  &hm LEFT_GUI SPACE    &lt 1 LEFT_SHIFT  &lt 2 SPACE
+&kp Q  &kp W  &kp E  &kp R               &kp T                 &kp Y  &kp U        &kp I                 &kp O           &kp P
+&kp A  &kp S  &kp D  &kp F               &kp G                 &kp H  &kp J        &kp K                 &kp L           &kp LSHIFT
+&kp Z  &kp X  &kp C  &kp V               &kp B                 &kp N  &kp M        &hm LEFT_COMMAND TAB  &hm LSHIFT TAB  &hm LCTRL ESCAPE
+                     &hm LCTRL LEFT_GUI  &hm LEFT_GUI SPACE    &mo 1  &lt 2 SPACE
             >;
         };
 
@@ -88,17 +88,17 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE               &kp PAGE_UP  &kp HOME        &kp UP_ARROW       &hm LEFT_COMMAND END  &hm LEFT_ALT BACKSPACE
 &kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp PG_DN    &kp LEFT_ARROW  &hm LEFT_GUI DOWN  &kp RIGHT             &hm LEFT_SHIFT ENTER
-&kp F11       &kp F12       &kp N9        &kp N0        &sys_reset              &kp SQT      &kp SLASH       &kp COMMA          &kp PERIOD            &trans
+&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT      &kp SLASH       &kp COMMA          &kp PERIOD            &trans
                                           &trans        &trans                  &trans       &trans
             >;
         };
 
         other_layer {
             bindings = <
-&kp F1     &kp F2     &kp F3            &kp F4             &kp F5           &kp T   &kp R               &kp E  &kp W  &kp Q
-&kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON    &kp G   &hm LEFT_COMMAND F  &kp D  &kp S  &hm LEFT_COMMAND A
-&kp F7     &kp F8     &kp F9            &kp F10            &kp F6           &kp B   &kp V               &kp C  &kp X  &kp Z
-                                        &trans             &trans           &trans  &trans
+&kp F1  &kp F2  &kp F3            &kp F4             &kp F12       &kp T   &kp R               &kp E  &kp W  &kp Q
+&kp F5  &kp F6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F11       &kp G   &hm LEFT_COMMAND F  &kp D  &kp S  &hm LEFT_COMMAND A
+&kp F7  &kp F8  &kp F9            &kp F10            &sys_reset    &kp B   &kp V               &kp C  &kp X  &kp Z
+                                  &trans             &trans        &trans  &trans
             >;
         };
     };
