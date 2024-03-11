@@ -79,7 +79,7 @@
             bindings = <
 &kp Q  &kp W  &kp E  &kp R                  &kp T                 &kp Y  &kp U        &kp I                 &kp O           &kp P
 &kp A  &kp S  &kp D  &kp F                  &kp G                 &kp H  &kp J        &kp K                 &kp L           &kp LSHIFT
-&kp Z  &kp X  &kp C  &kp V                  &kp B                 &kp N  &kp M        &hm LEFT_COMMAND TAB  &hm LSHIFT TAB  &hm LCTRL ESCAPE
+&kp Z  &kp X  &kp C  &kp V                  &kp B                 &kp N  &kp M        &hm LEFT_COMMAND TAB  &hm LSHIFT ESC  &hm LCTRL TAB
                      &hm LEFT_ALT LEFT_GUI  &hm LEFT_GUI SPACE    &mo 1  &lt 2 SPACE
             >;
         };
@@ -88,7 +88,7 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE               &kp PAGE_UP  &kp HOME        &kp UP_ARROW       &hm LEFT_COMMAND END  &hm LEFT_ALT BACKSPACE
 &kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp PG_DN    &kp LEFT_ARROW  &hm LEFT_GUI DOWN  &kp RIGHT             &hm LEFT_SHIFT ENTER
-&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT      &kp SLASH       &kp COMMA          &kp PERIOD            &trans
+&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT      &kp SLASH       &kp COMMA          &kp PERIOD            &hm LCTRL ESC
                                           &trans        &trans                  &trans       &trans
             >;
         };
