@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R                  &kp T                 &kp Y        &kp U        &kp I                 &kp O           &kp P
-&kp A  &kp S  &kp D  &kp F                  &kp G                 &kp H        &kp J        &kp K                 &kp L           &kp LSHIFT
-&kp Z  &kp X  &kp C  &kp V                  &kp B                 &kp N        &kp M        &hm LEFT_COMMAND TAB  &hm LSHIFT TAB  &hm LCTRL ESC
-                     &hm LEFT_ALT LEFT_GUI  &hm LEFT_GUI SPACE    &lt 1 SPACE  &lt 2 SPACE
+&kp Q  &kp W  &kp E  &kp R                   &kp T                        &kp Y        &kp U        &kp I                 &kp O           &kp P
+&kp A  &kp S  &kp D  &kp F                   &kp G                        &kp H        &kp J        &kp K                 &kp L           &kp LSHIFT
+&kp Z  &kp X  &kp C  &kp V                   &kp B                        &kp N        &kp M        &hm LEFT_COMMAND TAB  &hm LSHIFT ESC  &hm LCTRL TAB
+                     &hm LEFT_COMMAND SPACE  &hm LEFT_ALT LEFT_COMMAND    &lt 1 SPACE  &lt 2 SPACE
             >;
         };
 
@@ -95,10 +95,10 @@
 
         other_layer {
             bindings = <
-&kp F1            &kp F2             &kp F3  &kp F4   &kp F12       &kp T   &kp R               &kp E  &kp W  &kp Q
-&kp F5            &kp F6             &kp F7  &kp F8   &kp F11       &kp G   &hm LEFT_COMMAND F  &kp D  &kp S  &hm LEFT_COMMAND A
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F9  &kp F10  &kp DELETE    &kp B   &kp V               &kp C  &kp X  &kp Z
-                                             &trans   &trans        &trans  &trans
+&kp F1            &kp F2             &kp F3  &kp F4   &kp F12                &kp T   &kp R               &kp E             &kp W             &kp Q
+&kp F5            &kp F6             &kp F7  &kp F8   &kp F11                &kp G   &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F9  &kp F10  &kp DELETE             &kp B   &kp V               &kp C             &kp X             &kp Z
+                                             &trans   &hm LEFT_ALT INSERT    &trans  &trans
             >;
         };
     };
