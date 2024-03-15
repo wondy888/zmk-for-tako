@@ -86,9 +86,9 @@
 
         nav_layer {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE               &kp PAGE_UP  &hm LEFT_ALT LC(A)  &hm LEFT_ALT UP_ARROW  &hm LEFT_COMMAND LC(E)  &hm LEFT_ALT BACKSPACE
-&kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp PG_DN    &kp LEFT_ARROW      &hm LEFT_GUI DOWN      &kp RIGHT               &hm LEFT_SHIFT ENTER
-&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT      &kp SLASH           &kp COMMA              &kp PERIOD              &hm LCTRL ESC
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE               &kp PAGE_UP  &hm LEFT_ALT LEFT  &hm LEFT_ALT UP_ARROW  &hm LEFT_COMMAND RIGHT  &hm LEFT_ALT BACKSPACE
+&kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp PG_DN    &kp LEFT_ARROW     &hm LEFT_GUI DOWN      &kp RIGHT               &hm LEFT_SHIFT ENTER
+&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT      &kp SLASH          &kp COMMA              &kp PERIOD              &hm LCTRL ESC
                                           &trans        &trans                  &trans       &trans
             >;
         };
