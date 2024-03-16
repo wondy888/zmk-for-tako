@@ -78,7 +78,7 @@
         default_layer {
             bindings = <
 &kp Q  &kp W  &kp E  &kp R                   &kp T                        &kp Y        &kp U        &kp I                 &kp O           &kp P
-&kp A  &kp S  &kp D  &kp F                   &kp G                        &kp H        &kp J        &kp K                 &kp L           &kp LSHIFT
+&kp A  &kp S  &kp D  &kp F                   &kp G                        &kp H        &kp J        &kp K                 &kp L           &lt 3 LSHIFT
 &kp Z  &kp X  &kp C  &kp V                   &kp B                        &kp N        &kp M        &hm LEFT_CONTROL TAB  &hm LSHIFT ESC  &hm LEFT_COMMAND TAB
                      &hm LEFT_COMMAND SPACE  &hm LEFT_ALT LEFT_COMMAND    &lt 1 SPACE  &lt 2 SPACE
             >;
@@ -99,6 +99,15 @@
 &kp F5            &kp F6             &kp F7  &kp F8   &kp F11       &kp G   &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F9  &kp F10  &kp DELETE    &kp B   &hm LEFT_COMMAND V  &hm LEFT_SHIFT C  &hm LEFT_SHIFT X  &hm LEFT_COMMAND Z
                                              &kp INS  &trans        &trans  &trans
+            >;
+        };
+
+        mouse_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &mwh SCROLL_UP    &mkp LCLK            &mmv MOVE_UP    &mkp RCLK           &trans
+&trans  &trans  &trans  &trans  &trans    &mwh SCROLL_DOWN  &mmv MOVE_LEFT       &mmv MOVE_DOWN  &mmv MOVE_RIGHT     &trans
+&trans  &trans  &trans  &trans  &trans    &trans            &mmv MOVE -300 -300  &mkp MCLK       &mmv MOVE -300 300  &trans
+                        &trans  &trans    &trans            &trans
             >;
         };
     };
