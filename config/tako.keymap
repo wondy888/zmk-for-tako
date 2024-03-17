@@ -78,8 +78,8 @@
         default_layer {
             bindings = <
 &kp Q  &kp W  &kp E  &kp R                      &kp T                     &kp Y        &kp U        &kp I                 &kp O           &kp P
-&kp A  &kp S  &kp D  &kp F                      &kp G                     &kp H        &kp J        &kp K                 &kp L           &hm LEFT_COMMAND TAB
-&kp Z  &kp X  &kp C  &kp V                      &kp B                     &kp N        &kp M        &hm LEFT_CONTROL TAB  &hm LSHIFT ESC  &kp LSHIFT
+&kp A  &kp S  &kp D  &kp F                      &kp G                     &kp H        &kp J        &kp K                 &kp L           &kp LEFT_SHIFT
+&kp Z  &kp X  &kp C  &kp V                      &kp B                     &kp N        &kp M        &hm LEFT_CONTROL TAB  &hm LSHIFT ESC  &hm LEFT_COMMAND TAB
                      &hm LEFT_ALT LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &lt 1 SPACE  &lt 2 SPACE
             >;
         };
@@ -87,8 +87,8 @@
         nav_layer {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE               &kp PAGE_UP  &hm LEFT_ALT LEFT  &hm LEFT_ALT UP_ARROW  &hm LEFT_COMMAND RIGHT  &hm LEFT_ALT BACKSPACE
-&kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp PG_DN    &kp LEFT_ARROW     &hm LEFT_GUI DOWN      &kp RIGHT               &hm LEFT_CONTROL ENTER
-&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT      &kp SLASH          &kp COMMA              &kp PERIOD              &hm LSHIFT ESC
+&kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp PG_DN    &kp LEFT_ARROW     &hm LEFT_GUI DOWN      &kp RIGHT               &hm LEFT_SHIFT ENTER
+&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT      &kp SLASH          &kp COMMA              &kp PERIOD              &hm LEFT_CONTROL ESC
                                           &trans        &trans                  &trans       &trans
             >;
         };
