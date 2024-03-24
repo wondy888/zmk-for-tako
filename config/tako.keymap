@@ -95,10 +95,10 @@
 
         other_layer {
             bindings = <
-&kp F1            &kp F2             &kp F3  &kp F4   &kp F12       &kp T   &kp R               &kp E             &kp W             &kp Q
-&kp F5            &kp F6             &kp F7  &kp F8   &kp F11       &kp G   &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F9  &kp F10  &kp DELETE    &kp B   &hm LEFT_COMMAND V  &hm LEFT_SHIFT C  &hm LEFT_ALT X    &hm LEFT_COMMAND Z
-                                             &kp INS  &trans        &trans  &trans
+&kp F1            &kp F2             &kp F3  &kp F4   &kp F12       &kp T               &kp R   &kp E             &kp W             &kp Q
+&kp F5            &kp F6             &kp F7  &kp F8   &kp F11       &hm LEFT_COMMAND G  &kp F   &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F9  &kp F10  &kp DELETE    &hm LEFT_COMMAND B  &kp V   &hm LEFT_SHIFT C  &hm LEFT_ALT X    &hm LEFT_COMMAND Z
+                                             &kp INS  &trans        &trans              &trans
             >;
         };
 
