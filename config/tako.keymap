@@ -86,10 +86,10 @@
 
         nav_layer {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE               &kp HOME  &kp LEFT               &kp RIGHT                  &hm LEFT_ALT END      &hm LEFT_COMMAND BACKSPACE
-&kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp LEFT  &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT    &hm LEFT_SHIFT ENTER
-&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT   &kp SLASH              &hm LEFT_ALT COMMA         &hm LEFT_COMMAND DOT  &hm LEFT_CONTROL ESC
-                                          &trans        &trans                  &trans    &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE               &kp C_VOLUME_DOWN  &kp LEFT               &kp RIGHT                  &hm LEFT_ALT C_VOLUME_UP  &hm LEFT_COMMAND BACKSPACE
+&kp N5        &kp N6        &kp N7        &kp N8        &kp NON_US_BACKSLASH    &kp LEFT           &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT        &hm LEFT_SHIFT ENTER
+&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON           &kp SQT            &kp SLASH              &hm LEFT_ALT COMMA         &hm LEFT_COMMAND DOT      &hm LEFT_CONTROL ESC
+                                          &trans        &trans                  &trans             &trans
             >;
         };
 
