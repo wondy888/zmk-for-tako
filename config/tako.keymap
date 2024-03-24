@@ -104,9 +104,9 @@
 
         num_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &kp TILDE  &kp N1  &kp N2  &kp N3                     &none
-&trans  &trans  &trans  &trans  &trans    &kp N0     &kp N4  &kp N5  &hm LEFT_COMMAND NUMBER_6  &trans
-&trans  &trans  &trans  &trans  &trans    &none      &kp N7  &kp N8  &kp N9                     &trans
+&trans  &trans  &trans  &trans  &trans    &kp N1     &kp N2     &kp N3  &kp N4  &kp TILDE
+&trans  &trans  &trans  &trans  &trans    &kp N5     &kp N6     &kp N7  &kp N8  &trans
+&trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp EQUAL  &kp N9  &kp N0  &trans
                         &trans  &trans    &trans     &trans
             >;
         };
