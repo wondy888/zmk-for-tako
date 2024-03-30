@@ -42,7 +42,7 @@
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&mkp>, <&kp>;
+            bindings = <&mmv>, <&kp>;
         };
     };
 
@@ -122,9 +122,9 @@
 
         num_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &kp N1                     &kp N2                   &kp N3  &kp N4                   &kp TILDE
-&trans  &trans  &trans  &trans  &trans    &kp N5                     &hm LEFT_SHIFT NUMBER_6  &kp N7  &hm LEFT_SHIFT NUMBER_8  &trans
-&trans  &trans  &trans  &trans  &trans    &kp MINUS                  &kp EQUAL                &kp N9  &kp N0                   &trans
+&trans  &trans  &trans  &trans  &trans    &kp N1                     &kp N2                   &kp N3                   &kp N4                   &kp TILDE
+&trans  &trans  &trans  &trans  &trans    &kp N5                     &hm LEFT_SHIFT NUMBER_6  &mouse_layer MOVE_UP N7  &hm LEFT_SHIFT NUMBER_8  &trans
+&trans  &trans  &trans  &trans  &trans    &kp MINUS                  &kp EQUAL                &kp N9                   &kp N0                   &trans
                         &trans  &trans    &hm LEFT_COMMAND C_VOL_DN  &hm LSHIFT C_VOLUME_UP
             >;
         };
