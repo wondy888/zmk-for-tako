@@ -33,7 +33,7 @@
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&mo>, <&to>;
+            bindings = <&mo>, <&tog>;
         };
 
         l1tapDance: l1tapDance {
