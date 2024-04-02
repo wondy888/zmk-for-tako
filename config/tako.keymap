@@ -33,7 +33,7 @@
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&mo>, <&to>;
+            bindings = <&mo>, <&tog>;
         };
 
         l1tapDance: l1tapDance {
@@ -41,6 +41,13 @@
             label = "L1TAPDANCE";
             #binding-cells = <0>;
             bindings = <&lt 1 LEFT_ARROW>, <&click_layer 2 1>;
+        };
+
+        l0tapDance: l0tapDance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "L0TAPDANCE";
+            #binding-cells = <0>;
+            bindings = <&lt 1 ENTER>, <&click_layer 2 1>;
         };
     };
 
@@ -96,7 +103,7 @@
 &kp Q  &kp W  &kp E  &kp R                      &kp T                     &kp Y        &kp U        &kp I                 &kp O           &kp P
 &kp A  &kp S  &kp D  &kp F                      &kp G                     &kp H        &kp J        &kp K                 &kp L           &lt 3 LEFT_SHIFT
 &kp Z  &kp X  &kp C  &kp V                      &kp B                     &kp N        &kp M        &hm LEFT_CONTROL TAB  &hm LSHIFT ESC  &hm LEFT_COMMAND TAB
-                     &hm LEFT_ALT LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &l1tapDance  &lt 2 SPACE
+                     &hm LEFT_ALT LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &l0tapDance  &lt 2 SPACE
             >;
         };
 
@@ -105,7 +112,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp BACKSLASH  &kp SEMICOLON          &kp LEFT_BRACKET           &hm LEFT_ALT RIGHT_BRACKET  &hm LEFT_COMMAND BACKSPACE
 &kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT       &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT          &hm LEFT_SHIFT ENTER
 &kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp SQT        &kp COMMA              &hm LEFT_ALT PERIOD        &hm LEFT_COMMAND ESC        &hm LEFT_CONTROL SLASH
-                                          &trans        &trans           &trans         &trans
+                                          &trans        &trans           &l1tapDance    &trans
             >;
         };
 
