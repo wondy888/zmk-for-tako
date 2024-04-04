@@ -137,7 +137,7 @@
         nav_layer3 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp ENTER
 &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans  &trans
                         &trans  &trans    &none   &none
             >;
