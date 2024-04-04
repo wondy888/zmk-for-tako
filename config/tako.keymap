@@ -112,7 +112,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp BACKSLASH  &kp SEMICOLON          &kp LEFT_BRACKET           &hm LEFT_ALT RIGHT_BRACKET  &hm LEFT_COMMAND BACKSPACE
 &kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT       &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT          &hm LEFT_SHIFT ENTER
 &kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp SQT        &kp COMMA              &hm LEFT_ALT PERIOD        &hm LEFT_COMMAND ESC        &hm LEFT_CONTROL SLASH
-                                          &trans        &trans           &l4tapDance    &trans
+                                          &trans        &trans           &none          &none
             >;
         };
 
@@ -139,7 +139,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1       &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &kp N5
 &kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT     &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &hm LEFT_SHIFT ENTER
 &kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6       &kp N7                 &trans                     &trans              &trans
-                                          &trans        &trans           &l4tapDance  &lt 2 SPACE
+                                          &trans        &trans           &l4tapDance  &trans
             >;
         };
 
