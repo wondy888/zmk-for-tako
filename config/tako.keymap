@@ -40,7 +40,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L1TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&click_layer 4 1>, <&click_layer 2 1>;
+            bindings = <&click_layer 4 1>, <&click_layer 2 5>;
         };
 
         l0tapDance: l0tapDance {
@@ -140,6 +140,15 @@
 &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans  &trans
                         &trans  &trans    &none   &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &kp Y             &kp U               &kp I               &kp O                &kp P
+&trans  &trans  &trans  &trans  &trans    &kp H             &hm LEFT_COMMAND J  &hm LEFT_SHIFT K    &hm LEFT_SHIFT L     &hm LEFT_COMMAND SEMICOLON
+&trans  &trans  &trans  &trans  &trans    &kp N             &hm LEFT_COMMAND M  &hm LEFT_ALT COMMA  &hm LEFT_ALT PERIOD  &hm LEFT_COMMAND NON_US_BACKSLASH
+                        &trans  &trans    &click_layer 2 5  &lt 1 SPACE
             >;
         };
     };
