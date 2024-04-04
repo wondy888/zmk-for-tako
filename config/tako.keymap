@@ -33,7 +33,7 @@
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&mo>, <&tog>;
+            bindings = <&mo>, <&to>;
         };
 
         l4tapDance: l4tapDance {
@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L0TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&click_layer 2 4>;
+            bindings = <&mo 1>, <&to 4>;
         };
     };
 
@@ -136,10 +136,10 @@
 
         nav_layer2 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1       &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &trans
-&kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT     &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &trans
-&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6       &kp N7                 &trans                     &trans              &trans
-                                          &trans        &trans           &l4tapDance  &lt 2 SPACE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &trans
+&kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &trans
+&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6            &kp N7                 &trans                     &trans              &trans
+                                          &trans        &trans           &click_layer 5 0  &trans
             >;
         };
 
