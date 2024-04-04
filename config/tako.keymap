@@ -136,9 +136,9 @@
 
         move2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans                &trans              &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LEFT)  &kp LC(RIGHT)         &trans              &kp LEFT_SHIFT
+&trans  &trans  &trans  &trans  &trans    &trans  &trans        &hm LEFT_CONTROL TAB  &hm LEFT_SHIFT ESC  &hm LEFT_COMMAND TAB
                         &trans  &trans    &none   &trans
             >;
         };
