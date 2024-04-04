@@ -139,7 +139,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1       &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &kp N5
 &kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT     &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &hm LEFT_SHIFT ENTER
 &kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6       &kp N7                 &trans                     &trans              &trans
-                                          &trans        &trans           &l4tapDance  &trans
+                                          &trans        &trans           &l4tapDance  &lt 2 SPACE
             >;
         };
 
