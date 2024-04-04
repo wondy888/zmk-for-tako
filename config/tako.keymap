@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L0TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&click_layer 2 1>;
+            bindings = <&lt 1 SPACE>, <&click_layer 2 1>;
         };
     };
 
@@ -127,9 +127,9 @@
 
         num_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &kp N1                     &kp N2                   &kp N3  &kp N4                   &kp TILDE
-&trans  &trans  &trans  &trans  &trans    &kp N5                     &hm LEFT_SHIFT NUMBER_6  &kp N7  &hm LEFT_SHIFT NUMBER_8  &trans
-&trans  &trans  &trans  &trans  &trans    &kp MINUS                  &kp EQUAL                &kp N9  &kp N0                   &trans
+&trans  &trans  &trans  &trans  &trans    &kp NUMBER_4               &kp NUMBER_3            &kp NUMBER_2  &kp NUMBER_1       &kp TILDE
+&trans  &trans  &trans  &trans  &trans    &kp N8                     &hm LEFT_SHIFT N7       &kp NUMBER_6  &hm LEFT_SHIFT N5  &trans
+&trans  &trans  &trans  &trans  &trans    &kp NUMBER_0               &kp N9                  &kp EQUAL     &kp MINUS          &trans
                         &trans  &trans    &hm LEFT_COMMAND C_VOL_DN  &hm LSHIFT C_VOLUME_UP
             >;
         };
