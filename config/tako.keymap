@@ -36,18 +36,18 @@
             bindings = <&mo>, <&tog>;
         };
 
-        l1tapDance: l1tapDance {
+        l4tapDance: l4tapDance {
             compatible = "zmk,behavior-tap-dance";
-            label = "L1TAPDANCE";
+            label = "L4TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&click_layer 4 1>, <&click_layer 2 5>;
+            bindings = <&click_layer 5 4>, <&click_layer 2 6>;
         };
 
         l0tapDance: l0tapDance {
             compatible = "zmk,behavior-tap-dance";
             label = "L0TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&click_layer 2 1>;
+            bindings = <&mo 1>, <&click_layer 2 4>;
         };
     };
 
@@ -112,7 +112,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp BACKSLASH  &kp SEMICOLON          &kp LEFT_BRACKET           &hm LEFT_ALT RIGHT_BRACKET  &hm LEFT_COMMAND BACKSPACE
 &kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT       &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT          &hm LEFT_SHIFT ENTER
 &kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp SQT        &kp COMMA              &hm LEFT_ALT PERIOD        &hm LEFT_COMMAND ESC        &hm LEFT_CONTROL SLASH
-                                          &trans        &trans           &l1tapDance    &trans
+                                          &trans        &trans           &l4tapDance    &trans
             >;
         };
 
@@ -134,6 +134,15 @@
             >;
         };
 
+        nav_layer2 {
+            bindings = <
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1       &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &kp N5
+&kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT     &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &hm LEFT_SHIFT ENTER
+&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6       &kp N7                 &trans                     &trans              &trans
+                                          &trans        &trans           &l4tapDance  &trans
+            >;
+        };
+
         move2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans                &trans              &trans
@@ -148,7 +157,7 @@
 &trans  &trans  &trans  &trans  &trans    &kp Y             &kp U               &kp I               &kp O                &lt 3 P
 &trans  &trans  &trans  &trans  &trans    &kp H             &hm LEFT_COMMAND J  &hm LEFT_SHIFT K    &hm LEFT_SHIFT L     &hm LEFT_COMMAND SEMICOLON
 &trans  &trans  &trans  &trans  &trans    &kp N             &hm LEFT_COMMAND M  &hm LEFT_ALT COMMA  &hm LEFT_ALT PERIOD  &hm LEFT_COMMAND NON_US_BACKSLASH
-                        &trans  &trans    &click_layer 2 5  &lt 1 SPACE
+                        &trans  &trans    &click_layer 2 6  &lt 1 SPACE
             >;
         };
     };
