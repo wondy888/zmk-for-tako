@@ -101,9 +101,9 @@
         default_layer {
             bindings = <
 &kp Q  &kp W  &kp E  &kp R                      &kp T                     &kp Y             &kp U        &kp I                 &kp O           &kp P
-&kp A  &kp S  &kp D  &kp F                      &kp G                     &kp H             &kp J        &kp K                 &kp L           &lt 5 LEFT_SHIFT
+&kp A  &kp S  &kp D  &kp F                      &kp G                     &kp H             &kp J        &kp K                 &kp L           &lt 4 LEFT_SHIFT
 &kp Z  &kp X  &kp C  &kp V                      &kp B                     &kp N             &kp M        &hm LEFT_CONTROL TAB  &hm LSHIFT ESC  &hm LEFT_COMMAND TAB
-                     &hm LEFT_ALT LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &click_layer 1 2  &lt 6 SPACE
+                     &hm LEFT_ALT LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &click_layer 1 2  &lt 5 SPACE
             >;
         };
 
@@ -119,8 +119,8 @@
         nav_layer2 {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &lt 6 BACKSPACE
-&kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 5 LEFT_SHIFT
-&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 6 TAB
+&kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 6 LEFT_SHIFT
+&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 4 TAB
                                           &trans        &trans           &click_layer 3 0  &trans
             >;
         };
@@ -143,7 +143,7 @@
             >;
         };
 
-        other_layer {
+        left_layer {
             bindings = <
 &kp F1            &kp F2             &kp F3  &kp F4   &kp F12       &kp T  &kp R               &hm LEFT_ALT E    &hm LEFT_ALT W    &kp Q
 &kp F5            &kp F6             &kp F7  &kp F8   &kp F11       &kp G  &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
