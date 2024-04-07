@@ -118,7 +118,7 @@
 
         nav_layer2 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &lt 6 BACKSPACE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &lt 4 BACKSPACE
 &kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 6 LEFT_SHIFT
 &kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 4 TAB
                                           &trans        &trans           &click_layer 3 0  &trans
