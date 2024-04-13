@@ -100,10 +100,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R                      &kp T                     &kp Y             &kp U        &kp I                 &kp O           &kp P
-&kp A  &kp S  &kp D  &kp F                      &kp G                     &kp H             &kp J        &kp K                 &kp L           &lt 4 LEFT_SHIFT
-&kp Z  &kp X  &kp C  &kp V                      &kp B                     &kp N             &kp M        &hm LEFT_CONTROL TAB  &hm LSHIFT ESC  &hm LEFT_COMMAND TAB
-                     &hm LEFT_ALT LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &click_layer 1 2  &lt 5 SPACE
+&kp Q  &kp W  &kp E  &kp R        &kp T               &kp Y             &kp U        &kp I                 &kp O           &kp P
+&kp A  &kp S  &kp D  &kp F        &kp G               &kp H             &kp J        &kp K                 &kp L           &lt 4 LEFT_SHIFT
+&kp Z  &kp X  &kp C  &kp V        &kp B               &kp N             &kp M        &hm LEFT_CONTROL TAB  &hm LSHIFT ESC  &hm LEFT_COMMAND TAB
+                     &lt 5 SPACE  &click_layer 1 2    &click_layer 1 2  &lt 5 SPACE
             >;
         };
 
@@ -118,19 +118,19 @@
 
         nav_layer2 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp GRAVE        &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &lt 4 BACKSPACE
-&kp N5        &kp N6        &kp N7        &kp N8        &kp BACKSLASH    &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 6 LEFT_SHIFT
-&kp MINUS     &kp EQUAL     &kp N9        &kp N0        &kp SEMICOLON    &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 4 TAB
-                                          &trans        &trans           &click_layer 3 0  &trans
+&kp GRAVE             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp GRAVE              &kp GRAVE           &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &lt 4 BACKSPACE
+&lt 6 LEFT_SHIFT      &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP   &hm LEFT_COMMAND DOWN  &kp RIGHT           &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 6 LEFT_SHIFT
+&hm LEFT_COMMAND TAB  &kp ESC            &hm LEFT_CONTROL TAB  &kp GRAVE              &kp GRAVE           &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 4 TAB
+                                                               &trans                 &click_layer 3 0    &click_layer 3 0  &trans
             >;
         };
 
         nav_layer3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp ENTER
-&trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans  &trans
-                        &trans  &trans    &none   &none
+&trans     &trans  &trans        &trans         &trans    &trans  &trans        &trans         &trans  &trans
+&kp ENTER  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans    &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &kp ENTER
+&trans     &trans  &trans        &trans         &trans    &trans  &trans        &trans         &trans  &trans
+                                 &trans         &trans    &none   &none
             >;
         };
 
