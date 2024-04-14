@@ -119,8 +119,8 @@
         nav_layer2 {
             bindings = <
 &kp GRAVE             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp GRAVE              &kp GRAVE           &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &lt 4 BACKSPACE
-&lt 6 LEFT_SHIFT      &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP   &hm LEFT_COMMAND DOWN  &kp RIGHT           &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 6 LEFT_SHIFT
-&hm LEFT_COMMAND TAB  &kp ESC            &hm LEFT_CONTROL TAB  &kp GRAVE              &kp GRAVE           &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 4 TAB
+&lt 6 LEFT_SHIFT      &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP   &hm LEFT_COMMAND DOWN  &kp RIGHT           &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 4 LEFT_SHIFT
+&hm LEFT_COMMAND TAB  &kp ESC            &hm LEFT_CONTROL TAB  &kp GRAVE              &kp GRAVE           &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 6 TAB
                                                                &trans                 &click_layer 3 0    &click_layer 3 0  &trans
             >;
         };
