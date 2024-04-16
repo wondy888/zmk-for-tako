@@ -118,10 +118,10 @@
 
         nav_layer2 {
             bindings = <
-&kp GRAVE             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp GRAVE              &kp GRAVE           &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &lt 4 BACKSPACE
-&lt 7 LEFT_SHIFT      &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP   &hm LEFT_COMMAND DOWN  &kp RIGHT           &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 4 LEFT_SHIFT
-&hm LEFT_COMMAND TAB  &kp ESC            &hm LEFT_CONTROL TAB  &kp GRAVE              &kp GRAVE           &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 7 TAB
-                                                               &trans                 &click_layer 3 0    &click_layer 3 0  &trans
+&kp GRAVE         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp GRAVE              &kp GRAVE           &kp N1            &kp N2                 &kp C_VOLUME_DOWN          &kp C_VOLUME_UP     &lt 4 BACKSPACE
+&lt 7 LEFT_SHIFT  &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP   &hm LEFT_COMMAND DOWN  &kp RIGHT           &kp LEFT          &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &lt 4 LEFT_SHIFT
+&lt 5 TAB         &kp ESC            &hm LEFT_CONTROL TAB  &kp GRAVE              &kp GRAVE           &kp N6            &kp LEFT_COMMAND       &trans                     &trans              &lt 7 TAB
+                                                           &lt 7 SPACE            &click_layer 3 0    &click_layer 3 0  &trans
             >;
         };
 
@@ -156,17 +156,17 @@
             bindings = <
 &kp F1             &kp F2               &kp F3               &kp F4             &kp F12       &kp T  &kp R               &hm LEFT_ALT E    &hm LEFT_ALT W    &kp Q
 &hm LEFT_SHIFT F5  &hm LEFT_COMMAND F6  &hm LEFT_ALT F7      &hm LEFT_SHIFT F8  &kp F11       &kp G  &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
-&kp LEFT_BRACKET   &kp RIGHT_BRACKET    &hm LEFT_CONTROL F9  &kp F10            &kp DELETE    &kp B  &hm LEFT_COMMAND V  &hm LEFT_ALT C    &hm LEFT_SHIFT X  &hm LEFT_COMMAND Z
+&kp LEFT_BRACKET   &kp RIGHT_BRACKET    &hm LEFT_CONTROL F9  &kp F10            &kp DELETE    &kp B  &hm LEFT_COMMAND V  &hm LEFT_ALT C    &hm LEFT_ALT X    &hm LEFT_COMMAND Z
                                                              &kp INS            &trans        &none  &none
             >;
         };
 
         right_layer2 {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R                      &kp T                     &kp Y  &kp U  &kp I  &kp O  &kp P
-&kp A  &kp S  &kp D  &kp F                      &kp G                     &kp H  &kp J  &kp K  &kp L  &none
-&kp Z  &kp X  &kp C  &kp V                      &kp B                     &kp N  &kp M  &kp P  &kp Z  &none
-                     &hm LEFT_ALT LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &none  &kp P
+&kp Q               &kp W             &kp E             &kp R                      &kp T                     &kp Y  &kp U  &kp I  &kp O  &kp P
+&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F         &kp G                     &kp H  &kp J  &kp K  &kp L  &none
+&hm LEFT_COMMAND Z  &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_COMMAND V         &kp B                     &kp N  &kp M  &kp P  &kp Z  &none
+                                                        &hm LEFT_ALT LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &none  &kp P
             >;
         };
     };
