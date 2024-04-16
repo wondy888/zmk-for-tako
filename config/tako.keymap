@@ -145,8 +145,8 @@
 
         right_layer {
             bindings = <
-&hm LEFT_COMMAND L    &kp O               &kp I                 &kp U               &kp Y     &kp F8  &kp F9      &kp F10   &kp F11   &kp F12
-&kp LSHFT             &kp L               &kp K                 &hm LEFT_COMMAND J  &kp H     &kp F3  &kp F4      &kp F5    &kp F6    &kp F7
+&hm LEFT_COMMAND P    &kp O               &kp I                 &kp U               &kp Y     &kp F8  &kp F9      &kp F10   &kp F11   &kp F12
+&kp LSHFT             &hm LSHIFT L        &hm LEFT_SHIFT K      &hm LEFT_COMMAND J  &kp H     &kp F3  &kp F4      &kp F5    &kp F6    &kp F7
 &hm LEFT_COMMAND TAB  &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL TAB  &kp M               &kp N     &kp F1  &kp F2      &kp LBKT  &kp RBKT  &kp DELETE
                                                                 &kp INS             &trans    &none   &kp INSERT
             >;
