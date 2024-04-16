@@ -100,7 +100,7 @@
 
         default_layer {
             bindings = <
-&hm LEFT_COMMAND Q  &kp W             &kp E             &hm LEFT_COMMAND R  &kp T               &kp Y             &kp U               &kp I                 &kp O             &kp P
+&hm LEFT_COMMAND Q  &hm LEFT_ALT W    &hm LEFT_ALT E    &hm LEFT_COMMAND R  &kp T               &kp Y             &kp U               &kp I                 &kp O             &kp P
 &lt 4 A             &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &kp G               &kp H             &hm LEFT_COMMAND J  &hm LEFT_SHIFT K      &hm LEFT_SHIFT L  &lt 4 LEFT_SHIFT
 &hm LEFT_COMMAND Z  &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_COMMAND V  &kp B               &kp N             &kp M               &hm LEFT_CONTROL TAB  &hm LSHIFT ESC    &hm LEFT_COMMAND TAB
                                                         &lt 5 SPACE         &click_layer 1 2    &click_layer 1 2  &lt 6 SPACE
