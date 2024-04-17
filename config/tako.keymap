@@ -120,7 +120,7 @@
             bindings = <
 &kp BACKSPACE         &none                    &kp UP_ARROW           &none                   &none     &kp BACKSLASH  &kp LEFT_BRACKET       &kp UP_ARROW           &hm LEFT_ALT RIGHT_BRACKET  &hm LEFT_COMMAND BACKSPACE
 &hm LEFT_SHIFT ENTER  &hm LEFT_ALT LEFT_ARROW  &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND RIGHT  &none     &kp SEMICOLON  &hm LEFT_COMMAND LEFT  &hm LEFT_COMMAND DOWN  &hm LEFT_ALT RIGHT          &hm LEFT_SHIFT ENTER
-&hm LEFT_CONTROL TAB  &hm LEFT_SHIFT ESC       &hm LEFT_COMMAND TAB   &none                   &none     &kp SQT        &kp COMMA              &hm LEFT_ALT PERIOD    &hm LEFT_SHIFT ESC          &hm LEFT_CONTROL SLASH
+&hm LEFT_COMMAND TAB  &hm LEFT_SHIFT ESC       &hm LEFT_CONTROL TAB   &none                   &none     &kp SQT        &kp COMMA              &hm LEFT_ALT PERIOD    &hm LEFT_SHIFT ESC          &hm LEFT_CONTROL SLASH
                                                                       &trans                  &trans    &none          &none
             >;
         };
