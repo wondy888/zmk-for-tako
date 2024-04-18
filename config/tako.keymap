@@ -147,7 +147,7 @@
             bindings = <
 &kp N1     &kp N2     &kp N3  &kp N4                        &kp GRAVE                       &kp GRAVE                  &kp N1                  &kp N2     &kp N3  &kp N4
 &kp N5     &kp N6     &kp N7  &kp N8                        &none                           &none                      &kp N5                  &kp N6     &kp N7  &kp N8
-&kp MINUS  &kp EQUAL  &kp N9  &kp N0                        &kp GRAVE                       &kp GRAVE                  &kp MINUS               &kp EQUAL  &kp N9  &kp N0
+&kp MINUS  &kp EQUAL  &kp N9  &kp N0                        &none                           &none                      &kp MINUS               &kp EQUAL  &kp N9  &kp N0
                               &hm LEFT_SHIFT C_VOLUME_DOWN  &hm LEFT_COMMAND C_VOLUME_UP    &hm LEFT_COMMAND C_VOL_DN  &hm LSHIFT C_VOLUME_UP
             >;
         };
@@ -163,10 +163,10 @@
 
         left_layer {
             bindings = <
-&kp F1             &kp F2               &kp F3               &kp F4             &kp F12       &kp T  &kp R               &hm LEFT_ALT E    &hm LEFT_ALT W    &kp Q
-&hm LEFT_SHIFT F5  &hm LEFT_COMMAND F6  &hm LEFT_ALT F7      &hm LEFT_SHIFT F8  &kp F11       &kp G  &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
-&kp LEFT_BRACKET   &kp RIGHT_BRACKET    &hm LEFT_CONTROL F9  &kp F10            &kp DELETE    &kp B  &hm LEFT_COMMAND V  &hm LEFT_ALT C    &hm LEFT_ALT X    &hm LEFT_COMMAND Z
-                                                             &kp INS            &trans        &none  &none
+&kp F1               &kp F2             &kp F3               &kp F4               &kp F12       &kp T  &kp R               &hm LEFT_ALT E    &hm LEFT_ALT W    &kp Q
+&hm LEFT_COMMAND F5  &hm LEFT_SHIFT F6  &hm LEFT_SHIFT F7    &hm LEFT_COMMAND F8  &kp F11       &kp G  &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
+&kp LEFT_BRACKET     &kp RIGHT_BRACKET  &hm LEFT_CONTROL F9  &kp F10              &kp DELETE    &kp B  &hm LEFT_COMMAND V  &hm LEFT_ALT C    &hm LEFT_ALT X    &hm LEFT_COMMAND Z
+                                                             &kp INS              &trans        &none  &none
             >;
         };
 
