@@ -145,10 +145,10 @@
 
         num_layer {
             bindings = <
-&kp GRAVE  &kp N1     &kp N2     &kp N3                        &kp N4                          &kp NUMBER_4               &kp NUMBER_3            &kp NUMBER_2  &kp NUMBER_1       &kp GRAVE
-&trans     &kp N5     &kp N6     &kp N7                        &kp N8                          &kp N8                     &hm LEFT_SHIFT N7       &kp NUMBER_6  &hm LEFT_SHIFT N5  &trans
-&trans     &kp MINUS  &kp EQUAL  &kp N9                        &kp N0                          &kp NUMBER_0               &kp N9                  &kp EQUAL     &kp MINUS          &trans
-                                 &hm LEFT_SHIFT C_VOLUME_DOWN  &hm LEFT_COMMAND C_VOLUME_UP    &hm LEFT_COMMAND C_VOL_DN  &hm LSHIFT C_VOLUME_UP
+&kp N1     &kp N2     &kp N3  &kp N4                        &kp GRAVE                       &kp GRAVE                  &kp N1                  &kp N2     &kp N3  &kp N4
+&kp N5     &kp N6     &kp N7  &kp N8                        &none                           &none                      &kp N5                  &kp N6     &kp N7  &kp N8
+&kp MINUS  &kp EQUAL  &kp N9  &kp N0                        &kp GRAVE                       &kp GRAVE                  &kp MINUS               &kp EQUAL  &kp N9  &kp N0
+                              &hm LEFT_SHIFT C_VOLUME_DOWN  &hm LEFT_COMMAND C_VOLUME_UP    &hm LEFT_COMMAND C_VOL_DN  &hm LSHIFT C_VOLUME_UP
             >;
         };
 
