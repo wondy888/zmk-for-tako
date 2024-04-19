@@ -40,14 +40,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L4TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&mo 2>, <&to 3>;
+            bindings = <&lt 2 SPACE>, <&to 3>;
         };
 
         l0tapDance: l0tapDance {
             compatible = "zmk,behavior-tap-dance";
             label = "L0TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&to 3>;
+            bindings = <&lt 1 SPACE>, <&to 3>;
         };
     };
 
