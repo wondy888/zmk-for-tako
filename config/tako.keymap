@@ -40,7 +40,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L4TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&click_layer 4 3>, <&click_layer 8 3>;
+            bindings = <&mo 2>, <&to 3>;
         };
 
         l0tapDance: l0tapDance {
@@ -100,10 +100,10 @@
 
         default_layer {
             bindings = <
-&hm LEFT_COMMAND Q  &hm LEFT_ALT W    &hm LEFT_ALT E    &hm LEFT_COMMAND R  &lt 9 T             &lt 9 Y           &hm LEFT_COMMAND U  &hm LEFT_ALT I        &hm LEFT_ALT O    &hm LEFT_COMMAND P
-&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 5 G             &lt 5 H           &hm LEFT_COMMAND J  &hm LEFT_SHIFT K      &hm LEFT_SHIFT L  &hm LEFT_COMMAND LEFT_SHIFT
-&hm LEFT_COMMAND Z  &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_COMMAND V  &lt 9 B             &lt 9 N           &hm LEFT_COMMAND M  &hm LEFT_CONTROL TAB  &hm LSHIFT ESC    &hm LEFT_COMMAND TAB
-                                                        &lt 6 SPACE         &click_layer 2 3    &click_layer 1 3  &lt 7 SPACE
+&hm LEFT_COMMAND Q  &hm LEFT_ALT W    &hm LEFT_ALT E    &hm LEFT_COMMAND R  &lt 9 T        &lt 9 Y      &hm LEFT_COMMAND U  &hm LEFT_ALT I        &hm LEFT_ALT O    &hm LEFT_COMMAND P
+&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 5 G        &lt 5 H      &hm LEFT_COMMAND J  &hm LEFT_SHIFT K      &hm LEFT_SHIFT L  &hm LEFT_COMMAND LEFT_SHIFT
+&hm LEFT_COMMAND Z  &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_COMMAND V  &lt 9 B        &lt 9 N      &hm LEFT_COMMAND M  &hm LEFT_CONTROL TAB  &hm LSHIFT ESC    &hm LEFT_COMMAND TAB
+                                                        &lt 6 SPACE         &l4tapDance    &l0tapDance  &lt 7 SPACE
             >;
         };
 
