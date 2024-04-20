@@ -112,7 +112,7 @@
 &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &kp GRAVE             &kp LEFT_BRACKET       &kp UP_ARROW           &hm LEFT_ALT RIGHT_BRACKET  &hm LEFT_COMMAND BACKSPACE
 &hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7    &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp NON_US_BACKSLASH  &hm LEFT_COMMAND LEFT  &hm LEFT_COMMAND DOWN  &hm LEFT_ALT RIGHT          &hm LEFT_SHIFT ENTER
 &kp MINUS            &hm LEFT_ALT EQUAL       &hm LEFT_CONTROL N9  &kp N0               &kp SLASH        &kp SQT               &kp SEMICOLON          &hm LEFT_ALT COMMA     &hm LEFT_SHIFT PERIOD       &hm LEFT_CONTROL SLASH
-                                                                   &trans               &trans           &none                 &none
+                                                                   &trans               &trans           &none                 &kp LEFT_COMMAND
             >;
         };
 
