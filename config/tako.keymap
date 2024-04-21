@@ -109,10 +109,10 @@
 
         nav_layer_right {
             bindings = <
-&kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &kp GRAVE         &hm LEFT_COMMAND LEFT_BRACKET  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT_BRACKET  &hm LEFT_CONTROL BACKSPACE
-&hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7    &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp BACKSLASH     &hm LEFT_COMMAND LEFT          &hm LEFT_SHIFT DOWN        &hm LEFT_COMMAND RIGHT      &hm LEFT_SHIFT ENTER
-&kp MINUS            &hm LEFT_ALT EQUAL       &hm LEFT_CONTROL N9  &kp N0               &kp SLASH        &kp SQT           &hm LEFT_COMMAND SLASH         &hm LEFT_ALT COMMA         &hm LEFT_SHIFT PERIOD       &hm LEFT_COMMAND LEFT_COMMAND
-                                                                   &trans               &trans           &click_layer 4 0  &none
+&hm LEFT_CONTROL NUMBER_1  &hm LEFT_ALT NUMBER_2    &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &kp GRAVE         &hm LEFT_COMMAND LEFT_BRACKET  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT_BRACKET  &hm LEFT_CONTROL BACKSPACE
+&hm LEFT_COMMAND N5        &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7    &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp BACKSLASH     &hm LEFT_COMMAND LEFT          &hm LEFT_SHIFT DOWN        &hm LEFT_COMMAND RIGHT      &hm LEFT_SHIFT ENTER
+&kp MINUS                  &hm LEFT_ALT EQUAL       &hm LEFT_CONTROL N9  &kp N0               &kp SLASH        &kp SQT           &hm LEFT_COMMAND SLASH         &hm LEFT_ALT COMMA         &hm LEFT_SHIFT PERIOD       &hm LEFT_COMMAND LEFT_COMMAND
+                                                                         &trans               &trans           &click_layer 4 0  &none
             >;
         };
 
