@@ -208,9 +208,9 @@
 
         layer_12 {
             bindings = <
-&kp P                   &kp O             &kp I                    &kp U                       &kp Y     &kp Y  &kp U                      &kp UP_ARROW         &kp LEFT_ALT            &kp P
-&hm LEFT_COMMAND ENTER  &hm LEFT_SHIFT L  &hm LEFT_SHIFT LC(LEFT)  &hm LEFT_COMMAND LC(RIGHT)  &kp H     &kp H  &hm LEFT_COMMAND LC(LEFT)  &hm LEFT_SHIFT DOWN  &hm LEFT_COMMAND RC(L)  &hm LEFT_COMMAND ENTER
-&trans                  &kp K             &kp J                    &kp M                       &kp N     &kp N  &kp M                      &kp J                &kp K                   &trans
+&kp P                   &kp O             &kp I                    &kp U                       &kp Y     &kp Y  &kp U                      &kp UP_ARROW           &kp LEFT_ALT                &kp P
+&hm LEFT_COMMAND ENTER  &hm LEFT_SHIFT L  &hm LEFT_SHIFT LC(LEFT)  &hm LEFT_COMMAND LC(RIGHT)  &kp H     &kp H  &hm LEFT_COMMAND LC(LEFT)  &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND RC(RIGHT)  &hm LEFT_COMMAND ENTER
+&trans                  &kp K             &kp J                    &kp M                       &kp N     &kp N  &kp M                      &kp J                  &kp K                       &trans
                                                                    &trans                      &trans    &none  &none
             >;
         };
