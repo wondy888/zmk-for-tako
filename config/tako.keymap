@@ -54,7 +54,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L1_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&lt 3 ESCAPE>, <&to 4>;
+            bindings = <&lt 7 ESCAPE>, <&to 4>;
         };
     };
 
@@ -170,10 +170,10 @@
 
         function_layer_left {
             bindings = <
-&hm LEFT_COMMAND P           &hm LEFT_ALT O      &hm LEFT_ALT I        &hm LEFT_COMMAND U  &kp Y     &kp F8  &kp F9      &kp F10   &kp F11   &kp F12
-&hm LEFT_COMMAND LEFT_SHIFT  &hm LSHIFT L        &hm LEFT_SHIFT K      &hm LEFT_COMMAND J  &kp H     &kp F3  &kp F4      &kp F5    &kp F6    &kp F7
-&hm LEFT_COMMAND TAB         &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL TAB  &hm LEFT_COMMAND M  &kp N     &kp F1  &kp F2      &kp LBKT  &kp RBKT  &kp DELETE
-                                                                       &none               &trans    &none   &kp INSERT
+&hm LEFT_COMMAND P           &hm LEFT_ALT O      &hm LEFT_ALT I               &hm LEFT_COMMAND U  &kp Y     &kp F8  &kp F9      &kp F10   &kp F11   &kp F12
+&hm LEFT_COMMAND LEFT_SHIFT  &hm LSHIFT L        &hm LEFT_SHIFT K             &hm LEFT_COMMAND J  &kp H     &kp F3  &kp F4      &kp F5    &kp F6    &kp F7
+&hm LEFT_COMMAND TAB         &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND M  &kp N     &kp F1  &kp F2      &kp LBKT  &kp RBKT  &kp DELETE
+                                                                              &none               &trans    &none   &kp INSERT
             >;
         };
 
