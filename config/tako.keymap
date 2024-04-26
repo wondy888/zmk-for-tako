@@ -186,7 +186,7 @@
 
         function_layer_right {
             bindings = <
-&kp F1             &kp F2             &kp F3               &kp F4             &kp F12       &kp T  &kp R               &hm LEFT_ALT E    &hm LEFT_ALT W    &kp Q
+&kp F1             &kp F2             &kp F3               &kp F4             &kp F12       &kp T  &hm LEFT_COMMAND R  &hm LEFT_ALT E    &hm LEFT_ALT W    &hm LEFT_COMMAND Q
 &hm LEFT_SHIFT F5  &hm LEFT_ALT F6    &hm LEFT_ALT F7      &hm LEFT_SHIFT F8  &kp F11       &kp G  &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
 &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &hm LEFT_CONTROL F9  &kp F10            &kp DELETE    &kp B  &hm LEFT_COMMAND V  &hm LEFT_ALT C    &hm LEFT_ALT X    &hm LEFT_COMMAND Z
                                                            &trans             &trans        &none  &none
