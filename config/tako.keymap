@@ -150,7 +150,7 @@
 
         nav_layer2 {
             bindings = <
-&kp BACKSPACE         &kp C_VOLUME_DOWN   &kp C_VOLUME_UP              &none                  &none               &kp LEFT_ARROW       &hm LEFT_COMMAND C_VOL_UP  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT             &lt 11 BACKSPACE
+&kp BACKSPACE         &kp C_VOLUME_DOWN   &kp C_VOLUME_UP              &none                  &none               &kp LEFT_ARROW       &hm LEFT_COMMAND C_VOL_UP  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT UP_ARROW          &lt 11 BACKSPACE
 &lt 11 ENTER          &hm LEFT_ALT LEFT   &hm LEFT_COMMAND UP          &hm LEFT_COMMAND DOWN  &lt 6 RIGHT         &lt 6 C_VOLUME_DOWN  &hm LEFT_COMMAND LEFT      &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND LEFT_COMMAND  &hm LEFT_SHIFT ENTER
 &hm LEFT_COMMAND TAB  &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &kp LEFT_COMMAND       &none               &none                &kp LEFT_COMMAND           &trans                     &trans                         &trans
                                                                        &lt 9 SPACE            &click_layer 5 0    &click_layer 5 0     &trans
