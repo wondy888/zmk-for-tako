@@ -132,9 +132,9 @@
 
         nav_layer_right {
             bindings = <
-&kp NUMBER_1        &kp NUMBER_2               &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &kp GRAVE         &hm LEFT_CONTROL LEFT_BRACKET  &hm LEFT_ALT UP_ARROW  &hm LEFT_ALT RIGHT_BRACKET    &kp BACKSPACE
-&hm LEFT_SHIFT N5   &hm LEFT_CONTROL NUMBER_6  &hm LEFT_ALT N7      &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp BACKSLASH     &hm LEFT_SHIFT LEFT            &hm LEFT_COMMAND DOWN  &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
-&hm LEFT_ALT MINUS  &kp EQUAL                  &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &kp SQT           &kp SLASH                      &kp COMMA              &kp PERIOD                    &kp SEMICOLON
+&kp NUMBER_1        &kp NUMBER_2               &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &kp GRAVE         &hm LEFT_CONTROL LEFT_BRACKET  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT_BRACKET  &kp BACKSPACE
+&hm LEFT_SHIFT N5   &hm LEFT_CONTROL NUMBER_6  &hm LEFT_ALT N7      &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp BACKSLASH     &hm LEFT_COMMAND LEFT          &hm LEFT_CONTROL DOWN      &hm LEFT_SHIFT RIGHT_ARROW  &hm LEFT_SHIFT ENTER
+&hm LEFT_ALT MINUS  &kp EQUAL                  &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &kp SQT           &kp SLASH                      &kp COMMA                  &kp PERIOD                  &kp SEMICOLON
                                                                     &trans               &trans           &click_layer 5 0  &none
             >;
         };
