@@ -177,10 +177,10 @@
 
         function_layer_left {
             bindings = <
-&hm LEFT_COMMAND P      &hm LEFT_ALT O      &hm LEFT_ALT I               &hm LEFT_COMMAND U  &kp Y     &kp F8  &kp F9      &kp F10   &kp F11   &kp F12
-&hm LEFT_COMMAND ENTER  &hm LSHIFT L        &hm LEFT_SHIFT K             &hm LEFT_COMMAND J  &kp H     &kp F3  &kp F4      &kp F5    &kp F6    &kp F7
-&hm LEFT_COMMAND TAB    &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND M  &kp N     &kp F1  &kp F2      &kp LBKT  &kp RBKT  &kp DELETE
-                                                                         &none               &trans    &none   &kp INSERT
+&hm LEFT_COMMAND P      &hm LEFT_ALT O      &hm LEFT_ALT I               &hm LEFT_COMMAND U  &kp Y     &kp F8    &kp F9      &kp F10           &kp F11            &kp F12
+&hm LEFT_COMMAND ENTER  &hm LSHIFT L        &hm LEFT_SHIFT K             &hm LEFT_COMMAND J  &kp H     &kp BSLH  &kp GRAVE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
+&hm LEFT_COMMAND TAB    &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND M  &kp N     &kp SQT   &kp F2      &kp COMMA         &kp PERIOD         &kp SLASH
+                                                                         &none               &trans    &none     &kp INSERT
             >;
         };
 
@@ -226,6 +226,15 @@
 &none   &none              &hm LEFT_CONTROL DOWN_ARROW  &hm LEFT_COMMAND RIGHT  &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_COMMAND LEFT  &hm LEFT_CONTROL DOWN      &none               &none
 &trans  &kp K              &kp C_VOL_DN                 &kp C_VOLUME_UP         &kp N                &kp N              &kp C_VOLUME_DOWN      &kp C_VOLUME_UP            &kp K               &trans
                                                         &trans                  &trans               &trans             &trans
+            >;
+        };
+
+        layer_13 {
+            bindings = <
+&hm LEFT_COMMAND P      &hm LEFT_ALT O      &hm LEFT_ALT I               &hm LEFT_COMMAND U  &kp Y     &kp F8  &kp F9      &kp F10   &kp F11   &kp F12
+&hm LEFT_COMMAND ENTER  &hm LSHIFT L        &hm LEFT_SHIFT K             &hm LEFT_COMMAND J  &kp H     &kp F3  &kp F4      &kp F5    &kp F6    &kp F7
+&hm LEFT_COMMAND TAB    &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND M  &kp N     &kp F1  &kp F2      &kp LBKT  &kp RBKT  &kp DELETE
+                                                                         &none               &trans    &none   &kp INSERT
             >;
         };
     };
