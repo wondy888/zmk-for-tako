@@ -116,7 +116,7 @@
             bindings = <
 &lt 12 Q            &kp W               &kp E               &kp R               &kp T      &kp Y    &kp U               &kp I                      &kp O                 &lt 12 P
 &hm LEFT_COMMAND A  &hm LEFT_SHIFT S    &hm LEFT_SHIFT D    &hm LEFT_COMMAND F  &lt 6 G    &lt 6 H  &hm LEFT_COMMAND J  &hm LEFT_CONTROL K         &hm LEFT_SHIFT L      &hm LEFT_COMMAND TAB
-&hm LEFT_ALT Z      &hm LEFT_CONTROL X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_CONTROL M  &hm LEFT_SHIFT LEFT_SHIFT  &hm LEFT_CONTROL ESC  &hm LEFT_CONTROL SEMICOLON
+&hm LEFT_ALT Z      &hm LEFT_CONTROL X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_ALT M      &hm LEFT_SHIFT LEFT_SHIFT  &hm LEFT_CONTROL ESC  &hm LEFT_ALT SEMICOLON
                                                             &lt 7 SPACE         &mo 3      &mo 2    &lt 8 SPACE
             >;
         };
