@@ -222,8 +222,8 @@
 
         layer_12 {
             bindings = <
-&none   &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP_ARROW    &kp C_VOL_UP            &none                &kp C_VOL_UP       &hm LEFT_CONTROL LEFT_ARROW  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT             &none
-&none   &none              &hm LEFT_CONTROL DOWN_ARROW  &hm LEFT_COMMAND RIGHT  &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_SHIFT LEFT          &hm LEFT_CONTROL DOWN      &hm RIGHT_COMMAND RIGHT_ARROW  &none
+&none   &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP_ARROW    &kp RIGHT_ARROW         &kp C_VOL_UP         &kp C_VOL_UP       &hm LEFT_CONTROL LEFT_ARROW  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT             &none
+&none   &kp LEFT           &hm LEFT_CONTROL DOWN_ARROW  &hm LEFT_COMMAND RIGHT  &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_SHIFT LEFT          &hm LEFT_CONTROL DOWN      &hm RIGHT_COMMAND RIGHT_ARROW  &none
 &trans  &kp K              &kp C_VOL_DN                 &kp C_VOLUME_UP         &kp N                &kp N              &kp C_VOLUME_DOWN            &kp C_VOLUME_UP            &kp K                          &trans
                                                         &trans                  &trans               &trans             &trans
             >;
@@ -240,10 +240,10 @@
 
         layer_14 {
             bindings = <
-&kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &none             &none      &none          &none                      &none
-&hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_ALT N7      &hm LEFT_COMMAND N8  &kp BACKSLASH    &none             &kp GRAVE  &kp BACKSLASH  &hm LEFT_SHIFT LEFT_SHIFT  &none
-&hm LEFT_ALT MINUS   &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &none             &kp SQT    &kp SEMICOLON  &kp LEFT_SHIFT             &none
-                                                                   &trans               &trans           &click_layer 5 0  &none
+&kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &none              &none      &none          &none      &none
+&hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_ALT N7      &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp TILDE          &kp GRAVE  &kp BACKSLASH  &kp PIPE   &none
+&hm LEFT_ALT MINUS   &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &kp DOUBLE_QUOTES  &kp SQT    &kp SEMICOLON  &kp COLON  &none
+                                                                   &trans               &trans           &click_layer 5 0   &none
             >;
         };
     };
