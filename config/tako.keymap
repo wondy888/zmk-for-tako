@@ -114,10 +114,10 @@
 
         default_layer_right {
             bindings = <
-&lt 12 Q            &kp W               &kp E               &kp R               &kp T      &kp Y         &kp U               &kp I               &kp O             &lt 12 P
-&hm LEFT_COMMAND A  &hm LEFT_SHIFT S    &hm LEFT_SHIFT D    &hm LEFT_COMMAND F  &lt 6 G    &lt 6 H       &hm LEFT_COMMAND J  &hm LEFT_CONTROL K  &hm LEFT_SHIFT L  &hm LEFT_COMMAND TAB
-&hm LEFT_ALT Z      &hm LEFT_CONTROL X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B      &kp N         &hm LEFT_ALT M      &kp COMMA           &kp PERIOD        &kp SLASH
-                                                            &lt 7 SPACE         &mo 3      &r1_tapDance  &r2_tapDance
+&lt 12 Q            &kp W               &kp E               &kp R               &kp T          &kp Y         &kp U               &kp I               &kp O             &lt 12 P
+&hm LEFT_COMMAND A  &hm LEFT_SHIFT S    &hm LEFT_SHIFT D    &hm LEFT_COMMAND F  &lt 6 G        &lt 6 H       &hm LEFT_COMMAND J  &hm LEFT_CONTROL K  &hm LEFT_SHIFT L  &hm LEFT_COMMAND TAB
+&hm LEFT_ALT Z      &hm LEFT_CONTROL X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B          &kp N         &hm LEFT_ALT M      &kp COMMA           &kp PERIOD        &kp SLASH
+                                                            &lt 7 SPACE         &lt 3 SPACE    &r1_tapDance  &r2_tapDance
             >;
         };
 
@@ -134,7 +134,7 @@
             bindings = <
 &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &kp GRAVE         &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT ESC            &kp BACKSPACE
 &hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_ALT N7      &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp SEMICOLON     &hm LEFT_COMMAND LEFT        &hm LEFT_CONTROL DOWN      &hm LEFT_SHIFT RIGHT_ARROW  &hm LEFT_COMMAND ENTER
-&hm LEFT_ALT MINUS   &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &kp SQT           &kp NON_US_BACKSLASH         &kp LEFT_BRACKET           &kp RIGHT_BRACKET           &none
+&hm LEFT_ALT MINUS   &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &kp SQT           &kp BACKSLASH                &kp LEFT_BRACKET           &kp RIGHT_BRACKET           &none
                                                                    &trans               &trans           &click_layer 5 0  &none
             >;
         };
