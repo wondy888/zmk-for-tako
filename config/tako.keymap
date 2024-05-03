@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "R1_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&mo 2>, <&to 4>;
+            bindings = <&mo 2>, <&kp LEFT_SHIFT>;
         };
 
         l1_tapDance: l1_tapDance {
@@ -61,7 +61,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "R2_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&lt 8 SPACE>, <&to 4>;
+            bindings = <&lt 8 SPACE>, <&kp ESC>;
         };
     };
 
@@ -114,10 +114,10 @@
 
         default_layer_right {
             bindings = <
-&lt 12 Q            &kp W               &kp E               &kp R               &kp T      &kp Y    &kp U               &kp I               &kp O             &lt 12 P
-&hm LEFT_COMMAND A  &hm LEFT_SHIFT S    &hm LEFT_SHIFT D    &hm LEFT_COMMAND F  &lt 6 G    &lt 6 H  &hm LEFT_COMMAND J  &hm LEFT_CONTROL K  &hm LEFT_SHIFT L  &hm LEFT_COMMAND TAB
-&hm LEFT_ALT Z      &hm LEFT_CONTROL X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_ALT M      &kp COMMA           &kp PERIOD        &kp SLASH
-                                                            &lt 7 SPACE         &mo 3      &mo 2    &lt 8 SPACE
+&lt 12 Q            &kp W               &kp E               &kp R               &kp T      &kp Y         &kp U               &kp I               &kp O             &lt 12 P
+&hm LEFT_COMMAND A  &hm LEFT_SHIFT S    &hm LEFT_SHIFT D    &hm LEFT_COMMAND F  &lt 6 G    &lt 6 H       &hm LEFT_COMMAND J  &hm LEFT_CONTROL K  &hm LEFT_SHIFT L  &hm LEFT_COMMAND TAB
+&hm LEFT_ALT Z      &hm LEFT_CONTROL X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B      &kp N         &hm LEFT_ALT M      &kp COMMA           &kp PERIOD        &kp SLASH
+                                                            &lt 7 SPACE         &mo 3      &r1_tapDance  &r2_tapDance
             >;
         };
 
