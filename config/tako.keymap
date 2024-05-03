@@ -222,9 +222,9 @@
 
         layer_12 {
             bindings = <
-&none   &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP_ARROW    &kp C_VOL_UP            &none                &none              &kp C_VOLUME_UP        &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT  &none
-&none   &none              &hm LEFT_CONTROL DOWN_ARROW  &hm LEFT_COMMAND RIGHT  &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_COMMAND LEFT  &hm LEFT_CONTROL DOWN      &none               &none
-&trans  &kp K              &kp C_VOL_DN                 &kp C_VOLUME_UP         &kp N                &kp N              &kp C_VOLUME_DOWN      &kp C_VOLUME_UP            &kp K               &trans
+&none   &hm LEFT_ALT LEFT  &hm LEFT_COMMAND UP_ARROW    &kp C_VOL_UP            &none                &kp C_VOL_UP       &hm LEFT_CONTROL LEFT_ARROW  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT             &none
+&none   &none              &hm LEFT_CONTROL DOWN_ARROW  &hm LEFT_COMMAND RIGHT  &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_SHIFT LEFT          &hm LEFT_CONTROL DOWN      &hm RIGHT_COMMAND RIGHT_ARROW  &none
+&trans  &kp K              &kp C_VOL_DN                 &kp C_VOLUME_UP         &kp N                &kp N              &kp C_VOLUME_DOWN            &kp C_VOLUME_UP            &kp K                          &trans
                                                         &trans                  &trans               &trans             &trans
             >;
         };
