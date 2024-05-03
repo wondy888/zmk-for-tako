@@ -132,9 +132,9 @@
 
         nav_layer_right {
             bindings = <
-&kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &kp GRAVE         &hm LEFT_CONTROL LEFT_BRACKET  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT RIGHT_BRACKET    &kp BACKSPACE
-&hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_ALT N7      &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp SEMICOLON     &hm LEFT_COMMAND LEFT          &hm LEFT_CONTROL DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
-&hm LEFT_ALT MINUS   &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &kp SQT           &kp NON_US_BACKSLASH           &kp LEFT_SHIFT             &kp ESC                       &none
+&kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &kp GRAVE         &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND UP_ARROW  &hm LEFT_ALT ESC            &kp BACKSPACE
+&hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_ALT N7      &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp SEMICOLON     &hm LEFT_COMMAND LEFT        &hm LEFT_CONTROL DOWN      &hm LEFT_SHIFT RIGHT_ARROW  &hm LEFT_COMMAND ENTER
+&hm LEFT_ALT MINUS   &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &kp SQT           &kp NON_US_BACKSLASH         &kp LEFT_BRACKET           &kp RIGHT_BRACKET           &none
                                                                    &trans               &trans           &click_layer 5 0  &none
             >;
         };
