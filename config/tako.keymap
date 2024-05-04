@@ -40,7 +40,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L2_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&lt 7 SPACE>, <&to 8>;
+            bindings = <&lt 8 SPACE>, <&to 9>;
         };
 
         r1_tapDance: r1_tapDance {
@@ -54,7 +54,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L1_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&lt 11 ESCAPE>, <&to 8>;
+            bindings = <&lt 12 ESCAPE>, <&to 9>;
         };
 
         r2_tapDance: r2_tapDance {
@@ -188,28 +188,28 @@
 
         default_layer_right {
             bindings = <
-&lt 16 Q        &kp W           &kp E           &kp R                &kp T                     &kp Y     &kp U           &kp I         &kp O             &lt 16 P
-&lt 3 A         &lt 3 S         &lt 3 D         &lt 3 F              &lt 10 G                  &lt 10 H  &lt 2 J         &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
+&lt 5 Q         &kp W           &kp E           &kp R                &kp T                     &kp Y     &kp U           &kp I         &kp O             &lt 5 P
+&lt 3 A         &lt 3 S         &lt 3 D         &lt 3 F              &lt 11 G                  &lt 11 H  &lt 2 J         &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
 &hm LEFT_ALT Z  &hm LEFT_ALT X  &hm LEFT_ALT C  &hm LEFT_ALT V       &kp B                     &kp N     &hm LEFT_ALT M  &r1_tapDance  &r2_tapDance      &lt 18 SLASH
-                                                &lt 11 LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &mo 5     &lt 12 SPACE
+                                                &lt 12 LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &mo 6     &lt 13 SPACE
             >;
         };
 
         r_ctrl_layer {
             bindings = <
-&lt 16 Q            &kp W           &kp E               &kp R               &kp T                     &kp Y     &kp U               &kp I         &kp O             &lt 16 P
-&lt 3 A             &lt 3 S         &lt 3 D             &hm LEFT_COMMAND F  &lt 10 G                  &lt 10 H  &hm LEFT_COMMAND J  &none         &hm LEFT_SHIFT L  &kp LC(TAB)
+&lt 5 Q             &kp W           &kp E               &kp R               &kp T                     &kp Y     &kp U               &kp I         &kp O             &lt 5 P
+&lt 3 A             &lt 3 S         &lt 3 D             &hm LEFT_COMMAND F  &lt 11 G                  &lt 11 H  &hm LEFT_COMMAND J  &none         &hm LEFT_SHIFT L  &kp LC(TAB)
 &hm LEFT_COMMAND Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B                     &kp N     &hm LEFT_ALT M      &r1_tapDance  &r2_tapDance      &lt 18 SLASH
-                                                        &lt 11 SPACE        &hm LEFT_COMMAND SPACE    &mo 5     &lt 12 SPACE
+                                                        &lt 12 SPACE        &hm LEFT_COMMAND SPACE    &mo 6     &lt 13 SPACE
             >;
         };
 
         r_gui_layer {
             bindings = <
-&lt 16 Q            &kp W           &kp E               &kp R               &kp T                     &kp Y     &kp U           &kp I               &kp O             &lt 16 P
-&lt 3 A             &lt 3 S         &lt 3 D             &hm LEFT_COMMAND F  &lt 10 G                  &lt 10 H  &none           &hm LEFT_COMMAND K  &hm LEFT_SHIFT L  &kp TAB
+&lt 5 Q             &kp W           &kp E               &kp R               &kp T                     &kp Y     &kp U           &kp I               &kp O             &lt 5 P
+&lt 3 A             &lt 3 S         &lt 3 D             &hm LEFT_COMMAND F  &lt 11 G                  &lt 11 H  &none           &hm LEFT_COMMAND K  &hm LEFT_SHIFT L  &kp TAB
 &hm LEFT_COMMAND Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B                     &kp N     &hm LEFT_ALT M  &r1_tapDance        &r2_tapDance      &lt 18 SLASH
-                                                        &lt 11 SPACE        &hm LEFT_COMMAND SPACE    &mo 5     &lt 12 SPACE
+                                                        &lt 12 SPACE        &hm LEFT_COMMAND SPACE    &mo 6     &lt 13 SPACE
             >;
         };
 
@@ -224,19 +224,28 @@
 
         default_layer_left {
             bindings = <
-&hm LEFT_COMMAND Q  &hm LEFT_ALT W    &hm LEFT_ALT E    &hm LEFT_COMMAND R  &lt 14 T        &lt 14 Y      &hm LEFT_COMMAND U  &hm LEFT_ALT I        &hm LEFT_ALT O         &hm LEFT_CONTROL P
-&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 10 G        &lt 10 H      &hm LEFT_COMMAND J  &hm LEFT_SHIFT K      &hm LEFT_SHIFT L       &hm LEFT_COMMAND SEMICOLON
-&hm LEFT_COMMAND Z  &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_COMMAND V  &lt 14 B        &lt 14 N      &hm LEFT_COMMAND M  &hm LEFT_CONTROL ESC  &hm LSHIFT LEFT_SHIFT  &hm LEFT_COMMAND TAB
-                                                        &lt 11 SPACE        &l2_tapDance    &r1_tapDance  &lt 12 SPACE
+&hm LEFT_COMMAND Q  &hm LEFT_ALT W    &hm LEFT_ALT E    &hm LEFT_COMMAND R  &lt 15 T        &lt 15 Y      &hm LEFT_COMMAND U  &hm LEFT_ALT I        &hm LEFT_ALT O         &hm LEFT_CONTROL P
+&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 11 G        &lt 11 H      &hm LEFT_COMMAND J  &hm LEFT_SHIFT K      &hm LEFT_SHIFT L       &hm LEFT_COMMAND SEMICOLON
+&hm LEFT_COMMAND Z  &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_COMMAND V  &lt 15 B        &lt 15 N      &hm LEFT_COMMAND M  &hm LEFT_CONTROL ESC  &hm LSHIFT LEFT_SHIFT  &hm LEFT_COMMAND TAB
+                                                        &lt 12 SPACE        &l2_tapDance    &r1_tapDance  &lt 13 SPACE
+            >;
+        };
+
+        layer_12 {
+            bindings = <
+&none   &hm LEFT_ALT LEFT      &hm LEFT_CONTROL UP_ARROW    &hm LEFT_COMMAND RIGHT  &kp C_VOL_UP         &kp C_VOL_UP       &hm LEFT_COMMAND LEFT_ARROW  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT             &none
+&none   &hm LEFT_COMMAND LEFT  &hm LEFT_COMMAND DOWN_ARROW  &hm LEFT_SHIFT RIGHT    &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_SHIFT LEFT          &hm LEFT_COMMAND DOWN      &hm RIGHT_COMMAND RIGHT_ARROW  &none
+&trans  &none                  &kp C_VOL_DN                 &kp C_VOLUME_UP         &none                &none              &kp C_VOLUME_DOWN            &kp C_VOLUME_UP            &none                          &trans
+                                                            &trans                  &mo 8                &trans             &trans
             >;
         };
 
         nav_layer_right {
             bindings = <
-&kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3     &kp NUMBER_4     &kp GRAVE        &kp GRAVE         &hm LEFT_COMMAND LEFT  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT            &kp BACKSPACE
-&lt 6 N5            &lt 6 NUMBER_6      &lt 6 N7         &lt 6 N8         &kp BACKSLASH    &kp BACKSLASH     &hm LEFT_SHIFT LEFT    &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
-&hm LEFT_ALT MINUS  &hm LEFT_ALT EQUAL  &hm LEFT_ALT N9  &hm LEFT_ALT N0  &none            &kp SQT           &none                  &kp LEFT_BRACKET           &kp RIGHT_BRACKET             &kp LEFT_CONTROL
-                                                         &trans           &trans           &click_layer 9 0  &none
+&kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3     &kp NUMBER_4     &kp GRAVE        &kp GRAVE          &hm LEFT_COMMAND LEFT  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT            &kp BACKSPACE
+&lt 7 N5            &lt 7 NUMBER_6      &lt 7 N7         &lt 7 N8         &kp BACKSLASH    &kp BACKSLASH      &hm LEFT_SHIFT LEFT    &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
+&hm LEFT_ALT MINUS  &hm LEFT_ALT EQUAL  &hm LEFT_ALT N9  &hm LEFT_ALT N0  &none            &kp SQT            &none                  &kp LEFT_BRACKET           &kp RIGHT_BRACKET             &kp LEFT_CONTROL
+                                                         &trans           &trans           &click_layer 10 0  &none
             >;
         };
 
@@ -245,7 +254,7 @@
 &kp NUMBER_1        &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4       &kp GRAVE        &kp LS(GRAVE)      &hm LEFT_COMMAND LEFT  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT            &kp BACKSPACE
 &hm LEFT_SHIFT N5   &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7    &hm LEFT_SHIFT N8  &kp BACKSLASH    &kp LS(BACKSLASH)  &hm LEFT_SHIFT LEFT    &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
 &hm LEFT_ALT MINUS  &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0    &none            &kp LS(SQT)        &none                  &kp LS(LEFT_BRACKET)       &kp LS(RIGHT_BRACKET)         &kp LEFT_CONTROL
-                                                                  &trans             &trans           &click_layer 9 0   &none
+                                                                  &trans             &trans           &click_layer 10 0  &none
             >;
         };
 
@@ -260,10 +269,10 @@
 
         nav_layer2 {
             bindings = <
-&kp BACKSPACE         &kp C_VOLUME_DOWN   &kp C_VOLUME_UP              &none                  &none               &kp LEFT_ARROW        &hm LEFT_COMMAND C_VOL_UP  &hm LEFT_COMMAND UP_ARROW    &hm LEFT_ALT UP_ARROW          &lt 15 BACKSPACE
-&lt 15 ENTER          &hm LEFT_ALT LEFT   &hm LEFT_COMMAND UP          &hm LEFT_COMMAND DOWN  &lt 10 RIGHT        &lt 10 C_VOLUME_DOWN  &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND UP_ARROW    &hm LEFT_COMMAND LEFT_COMMAND  &hm LEFT_SHIFT ENTER
-&hm LEFT_COMMAND TAB  &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &kp LEFT_COMMAND       &none               &none                 &kp LEFT_COMMAND           &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_SHIFT ESC             &kp TAB
-                                                                       &lt 13 SPACE           &click_layer 9 0    &click_layer 9 0      &trans
+&kp BACKSPACE         &kp C_VOLUME_DOWN   &kp C_VOLUME_UP              &none                  &none                &kp LEFT_ARROW        &hm LEFT_COMMAND C_VOL_UP  &hm LEFT_COMMAND UP_ARROW    &hm LEFT_ALT UP_ARROW          &lt 16 BACKSPACE
+&lt 16 ENTER          &hm LEFT_ALT LEFT   &hm LEFT_COMMAND UP          &hm LEFT_COMMAND DOWN  &lt 11 RIGHT         &lt 11 C_VOLUME_DOWN  &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND UP_ARROW    &hm LEFT_COMMAND LEFT_COMMAND  &hm LEFT_SHIFT ENTER
+&hm LEFT_COMMAND TAB  &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &kp LEFT_COMMAND       &none                &none                 &kp LEFT_COMMAND           &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_SHIFT ESC             &kp TAB
+                                                                       &lt 14 SPACE           &click_layer 10 0    &click_layer 10 0     &trans
             >;
         };
 
@@ -330,15 +339,6 @@
             >;
         };
 
-        layer_12 {
-            bindings = <
-&none   &hm LEFT_ALT LEFT      &hm LEFT_CONTROL UP_ARROW    &hm LEFT_COMMAND RIGHT  &kp C_VOL_UP         &kp C_VOL_UP       &hm LEFT_COMMAND LEFT_ARROW  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT             &none
-&none   &hm LEFT_COMMAND LEFT  &hm LEFT_COMMAND DOWN_ARROW  &hm LEFT_SHIFT RIGHT    &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_SHIFT LEFT          &hm LEFT_COMMAND DOWN      &hm RIGHT_COMMAND RIGHT_ARROW  &none
-&trans  &none                  &kp C_VOL_DN                 &kp C_VOLUME_UP         &none                &none              &kp C_VOLUME_DOWN            &kp C_VOLUME_UP            &none                          &trans
-                                                            &trans                  &none                &trans             &trans
-            >;
-        };
-
         layer_13 {
             bindings = <
 &hm LEFT_COMMAND P      &hm LEFT_ALT O      &hm LEFT_ALT I               &hm LEFT_COMMAND U  &kp Y     &kp F8  &kp F9      &kp F10   &kp F11   &kp F12
@@ -353,7 +353,7 @@
 &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4         &kp GRAVE        &none              &none      &none          &none      &none
 &hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_ALT N7      &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp TILDE          &kp GRAVE  &kp BACKSLASH  &kp PIPE   &none
 &hm LEFT_ALT MINUS   &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0      &none            &kp DOUBLE_QUOTES  &kp SQT    &kp SEMICOLON  &kp COLON  &none
-                                                                   &trans               &trans           &click_layer 9 0   &none
+                                                                   &trans               &trans           &click_layer 10 0  &none
             >;
         };
     };
