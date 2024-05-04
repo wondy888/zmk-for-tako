@@ -260,10 +260,10 @@
 
         nav_layer_left {
             bindings = <
-&hm LEFT_CONTROL BACKSPACE  &kp LEFT_BRACKET         &kp UP_ARROW             &kp RIGHT_BRACKET       &kp GRAVE        &none  &kp N1     &kp N2     &kp N3  &kp N4
-&hm LEFT_SHIFT ENTER        &hm LEFT_ALT LEFT_ARROW  &hm LEFT_SHIFT DOWN      &hm LEFT_COMMAND RIGHT  &kp BACKSLASH    &none  &kp N5     &kp N6     &kp N7  &kp N8
-&hm LEFT_COMMAND SLASH      &hm LEFT_SHIFT COMMA     &hm LEFT_CONTROL PERIOD  &kp SEMICOLON           &kp SQT          &none  &kp MINUS  &kp EQUAL  &kp N9  &kp N0
-                                                                              &none                   &none            &none  &none
+&hm LEFT_CONTROL BACKSPACE  &hm LEFT_ALT LEFT            &hm LEFT_CONTROL UP_ARROW  &hm LEFT_COMMAND RIGHT      &kp GRAVE        &none  &kp N1     &kp N2     &kp N3  &kp N4
+&hm LEFT_SHIFT ENTER        &hm LEFT_COMMAND LEFT_ARROW  &hm LEFT_COMMAND DOWN      &hm LEFT_SHIFT RIGHT        &kp BACKSLASH    &none  &kp N5     &kp N6     &kp N7  &kp N8
+&hm LEFT_COMMAND SLASH      &hm LEFT_SHIFT COMMA         &hm LEFT_CONTROL PERIOD    &hm LEFT_COMMAND SEMICOLON  &kp SQT          &none  &kp MINUS  &kp EQUAL  &kp N9  &kp N0
+                                                                                    &none                       &none            &none  &none
             >;
         };
 
