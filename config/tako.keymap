@@ -335,7 +335,7 @@
 &none   &hm LEFT_ALT LEFT      &hm LEFT_CONTROL UP_ARROW    &hm LEFT_COMMAND RIGHT  &kp C_VOL_UP         &kp C_VOL_UP       &hm LEFT_COMMAND LEFT_ARROW  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT             &none
 &none   &hm LEFT_COMMAND LEFT  &hm LEFT_COMMAND DOWN_ARROW  &hm LEFT_SHIFT RIGHT    &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_SHIFT LEFT          &hm LEFT_COMMAND DOWN      &hm RIGHT_COMMAND RIGHT_ARROW  &none
 &trans  &none                  &kp C_VOL_DN                 &kp C_VOLUME_UP         &none                &none              &kp C_VOLUME_DOWN            &kp C_VOLUME_UP            &none                          &trans
-                                                            &trans                  &trans               &trans             &trans
+                                                            &trans                  &none                &trans             &trans
             >;
         };
 
