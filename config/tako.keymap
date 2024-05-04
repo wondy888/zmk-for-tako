@@ -135,6 +135,22 @@
         };
     };
 
+    macros {
+        com_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mo 2 &kp LEFT_COMMAND>;
+            label = "NEW_MACRO";
+        };
+
+        con_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mo 2 &kp LEFT_CONTROL>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
