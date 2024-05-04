@@ -133,7 +133,7 @@
         r_gui_layer {
             bindings = <
 &lt 15 Q            &kp W           &kp E               &kp R               &kp T                     &kp Y    &kp U           &kp I               &kp O             &lt 15 P
-&lt 3 A             &lt 3 S         &lt 3 D             &hm LEFT_COMMAND F  &lt 9 G                   &lt 9 H  &none           &hm LEFT_CONTROL K  &hm LEFT_SHIFT L  &kp RG(TAB)
+&lt 3 A             &lt 3 S         &lt 3 D             &hm LEFT_COMMAND F  &lt 9 G                   &lt 9 H  &none           &hm LEFT_COMMAND K  &hm LEFT_SHIFT L  &kp TAB
 &hm LEFT_COMMAND Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B                     &kp N    &hm LEFT_ALT M  &r1_tapDance        &r2_tapDance      &lt 17 SLASH
                                                         &lt 10 SPACE        &hm LEFT_COMMAND SPACE    &mo 5    &lt 11 SPACE
             >;
