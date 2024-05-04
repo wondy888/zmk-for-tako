@@ -64,23 +64,30 @@
             bindings = <&kp PERIOD>, <&kp ESC>;
         };
 
-        keep_command: keep_command {
+        changed_sen: changed_sen {
             compatible = "zmk,behavior-mod-morph";
-            label = "KEEP_COMMAND";
-            bindings = <&mo 2>, <&kp LG(LEFT_COMMAND)>;
+            label = "CHANGED_SEN";
+            bindings = <&kp SEMICOLON>, <&kp TAB>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RGUI)>;
-            keep-mods = <(MOD_RGUI)>;
+            mods = <(MOD_RGUI|MOD_RCTL|MOD_LCTL|MOD_LGUI)>;
+            keep-mods = <(MOD_RGUI|MOD_LCTL|MOD_LGUI|MOD_RCTL)>;
         };
 
         new_behavior: new_behavior {
             compatible = "zmk,behavior-hold-tap";
             label = "NEW_BEHAVIOR";
-            bindings = <&keep_command>, <&kp>;
+            bindings = <&changed_sen>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+        };
+
+        new_behavior1: new_behavior1 {
+            compatible = "zmk,behavior-caps-word";
+            label = "NEW_BEHAVIOR1";
+            #binding-cells = <0>;
+            continue-list = <LEFT_COMMAND>;
         };
     };
 
