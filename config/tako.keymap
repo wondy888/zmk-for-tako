@@ -233,7 +233,7 @@
 
         nav_layer_right {
             bindings = <
-&kp NUMBER_1        &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4       &kp GRAVE        &kp GRAVE         &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT ESC              &kp BACKSPACE
+&kp NUMBER_1        &kp NUMBER_2             &kp NUMBER_3         &kp NUMBER_4       &kp GRAVE        &kp GRAVE         &hm LEFT_COMMAND LEFT_SHIFT  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT ESC              &kp BACKSPACE
 &hm LEFT_SHIFT N5   &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7    &hm LEFT_SHIFT N8  &kp BACKSLASH    &kp BACKSLASH     &hm LEFT_SHIFT LEFT          &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
 &hm LEFT_ALT MINUS  &kp EQUAL                &hm LEFT_CONTROL N9  &hm LEFT_ALT N0    &none            &kp SQT           &none                        &kp LEFT_BRACKET           &kp RIGHT_BRACKET             &kp LEFT_CONTROL
                                                                   &trans             &trans           &click_layer 8 0  &none
@@ -323,7 +323,7 @@
 
         layer_12 {
             bindings = <
-&none   &hm LEFT_ALT LEFT      &hm LEFT_CONTROL UP_ARROW    &hm LEFT_CONTROL RIGHT  &kp C_VOL_UP         &kp C_VOL_UP       &hm LEFT_CONTROL LEFT_ARROW  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT             &none
+&none   &hm LEFT_ALT LEFT      &hm LEFT_CONTROL UP_ARROW    &hm LEFT_COMMAND RIGHT  &kp C_VOL_UP         &kp C_VOL_UP       &hm LEFT_COMMAND LEFT_ARROW  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT             &none
 &none   &hm LEFT_COMMAND LEFT  &hm LEFT_COMMAND DOWN_ARROW  &hm LEFT_SHIFT RIGHT    &kp C_VOLUME_DOWN    &kp C_VOLUME_DOWN  &hm LEFT_SHIFT LEFT          &hm LEFT_COMMAND DOWN      &hm RIGHT_COMMAND RIGHT_ARROW  &none
 &trans  &none                  &kp C_VOL_DN                 &kp C_VOLUME_UP         &none                &none              &kp C_VOLUME_DOWN            &kp C_VOLUME_UP            &none                          &trans
                                                             &trans                  &trans               &trans             &trans
