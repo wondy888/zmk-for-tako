@@ -190,7 +190,7 @@
             bindings = <
 &lt 5 Q           &kp W             &kp E             &kp R             &kp T          &kp Y     &kp U           &kp I         &kp O             &lt 5 P
 &hm LEFT_SHIFT A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_SHIFT F  &lt 11 G       &lt 11 H  &lt 2 J         &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
-&hm LEFT_ALT Z    &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V    &kp B          &kp N     &hm LEFT_ALT M  &r1_tapDance  &r2_tapDance      &lt 18 SLASH
+&hm LEFT_ALT Z    &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V    &kp B          &kp N     &hm LEFT_ALT M  &r1_tapDance  &r2_tapDance      &kp SLASH
                                                       &kp LEFT_COMMAND  &lt 8 SPACE    &mo 6     &lt 13 SPACE
             >;
         };
