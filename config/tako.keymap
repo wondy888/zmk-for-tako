@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "R1_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp LEFT_SHIFT>;
+            bindings = <&kp COMMA>, <&kp CAPS>;
         };
 
         l1_tapDance: l1_tapDance {
