@@ -188,9 +188,9 @@
 
         default_layer_right {
             bindings = <
-&lt 4 Q             &kp W             &kp E             &kp R               &kp T          &kp Y    &kp U           &kp I         &kp O             &lt 4 P
-&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 8 G        &lt 8 H  &lt 2 J         &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
-&hm LEFT_ALT Z      &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V      &kp B          &kp N    &hm LEFT_ALT M  &r1_tapDance  &r2_tapDance      &kp SLASH
+&lt 4 Q             &kp W             &kp E             &kp R               &kp T          &kp Y    &kp U               &kp I         &kp O             &lt 4 P
+&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 8 G        &lt 8 H  &hm LEFT_COMMAND J  &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
+&hm LEFT_ALT Z      &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V      &kp B          &kp N    &hm LEFT_ALT M      &r1_tapDance  &r2_tapDance      &kp SLASH
                                                         &lt 9 LEFT_COMMAND  &lt 7 SPACE    &mo 5    &lt 10 SPACE
             >;
         };
