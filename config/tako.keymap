@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "R1_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp CAPS>;
+            bindings = <&kp COMMA>, <&kp LEFT_SHIFT>;
         };
 
         l1_tapDance: l1_tapDance {
@@ -128,7 +128,7 @@
         };
 
         right_par {
-            bindings = <&kp CAPS>;
+            bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <16 17>;
         };
 
@@ -152,9 +152,14 @@
             key-positions = <14 15>;
         };
 
-        caps {
-            bindings = <&kp CAPSLOCK>;
+        shift {
+            bindings = <&kp LEFT_SHIFT>;
             key-positions = <17 18>;
+        };
+
+        left_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <11 12>;
         };
     };
 
@@ -183,10 +188,10 @@
 
         default_layer_right {
             bindings = <
-&lt 5 Q           &kp W             &kp E             &kp R                &kp T                     &kp Y     &kp U           &kp I         &kp O             &lt 5 P
-&hm LEFT_SHIFT A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_SHIFT F     &lt 11 G                  &lt 11 H  &lt 2 J         &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
-&hm LEFT_ALT Z    &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V       &kp B                     &kp N     &hm LEFT_ALT M  &r1_tapDance  &r2_tapDance      &lt 18 SLASH
-                                                      &lt 12 LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &mo 6     &lt 13 SPACE
+&lt 5 Q           &kp W             &kp E             &kp R             &kp T          &kp Y     &kp U           &kp I         &kp O             &lt 5 P
+&hm LEFT_SHIFT A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_SHIFT F  &lt 11 G       &lt 11 H  &lt 2 J         &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
+&hm LEFT_ALT Z    &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V    &kp B          &kp N     &hm LEFT_ALT M  &r1_tapDance  &r2_tapDance      &lt 18 SLASH
+                                                      &kp LEFT_COMMAND  &lt 8 SPACE    &mo 6     &lt 13 SPACE
             >;
         };
 
