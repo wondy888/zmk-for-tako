@@ -188,10 +188,10 @@
 
         default_layer_right {
             bindings = <
-&lt 5 Q         &kp W           &kp E           &kp R                &kp T                     &kp Y     &kp U           &kp I         &kp O         &lt 5 P
-&lt 3 A         &lt 3 S         &lt 3 D         &lt 3 F              &lt 11 G                  &lt 11 H  &lt 2 J         &lt 1 K       &lt 3 L       &hm LEFT_COMMAND SEMICOLON
-&hm LEFT_ALT Z  &hm LEFT_ALT X  &hm LEFT_ALT C  &hm LEFT_ALT V       &kp B                     &kp N     &hm LEFT_ALT M  &r1_tapDance  &r2_tapDance  &lt 18 SLASH
-                                                &lt 12 LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &mo 6     &lt 13 SPACE
+&lt 5 Q           &kp W             &kp E             &kp R                &kp T                     &kp Y     &kp U           &kp I         &kp O             &lt 5 P
+&hm LEFT_SHIFT A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_SHIFT F     &lt 11 G                  &lt 11 H  &lt 2 J         &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
+&hm LEFT_ALT Z    &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V       &kp B                     &kp N     &hm LEFT_ALT M  &r1_tapDance  &r2_tapDance      &lt 18 SLASH
+                                                      &lt 12 LEFT_COMMAND  &hm LEFT_COMMAND SPACE    &mo 6     &lt 13 SPACE
             >;
         };
 
@@ -242,10 +242,10 @@
 
         nav_layer_right {
             bindings = <
-&kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3     &kp NUMBER_4               &kp GRAVE        &kp PAGE_UP        &hm LEFT_COMMAND LEFT  &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT            &kp BACKSPACE
-&lt 7 N5            &lt 7 NUMBER_6      &lt 7 N7         &lt 7 N8                   &kp BACKSLASH    &kp PAGE_DOWN      &lt 7 LEFT             &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &lt 7 ENTER
-&hm LEFT_ALT MINUS  &hm LEFT_ALT EQUAL  &hm LEFT_ALT N9  &hm LEFT_ALT N0            &kp SQT          &kp SQT            &kp GRAVE              &kp LEFT_BRACKET           &kp RIGHT_BRACKET             &hm LEFT_CONTROL BACKSLASH
-                                                         &hm LEFT_ALT LEFT_COMMAND  &trans           &click_layer 10 0  &none
+&kp NUMBER_1        &kp NUMBER_2             &kp NUMBER_3       &kp NUMBER_4               &kp GRAVE        &kp PAGE_UP        &hm LEFT_COMMAND LEFT      &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT            &kp BACKSPACE
+&hm LEFT_SHIFT N5   &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7  &hm LEFT_SHIFT N8          &kp BACKSLASH    &kp PAGE_DOWN      &hm LEFT_SHIFT LEFT_ARROW  &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
+&hm LEFT_ALT MINUS  &hm LEFT_ALT EQUAL       &hm LEFT_ALT N9    &hm LEFT_ALT N0            &kp SQT          &kp SQT            &kp GRAVE                  &kp LEFT_BRACKET           &kp RIGHT_BRACKET             &hm LEFT_CONTROL BACKSLASH
+                                                                &hm LEFT_ALT LEFT_COMMAND  &trans           &click_layer 10 0  &none
             >;
         };
 
