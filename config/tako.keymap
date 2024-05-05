@@ -233,10 +233,10 @@
 
         nav_layer_right {
             bindings = <
-&kp NUMBER_1        &kp NUMBER_2             &kp NUMBER_3       &kp NUMBER_4       &kp GRAVE        &kp PAGE_UP    &hm LEFT_COMMAND LEFT      &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT            &kp BACKSPACE
-&hm LEFT_SHIFT N5   &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7  &hm LEFT_SHIFT N8  &kp BACKSLASH    &kp PAGE_DOWN  &hm LEFT_SHIFT LEFT_ARROW  &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
-&hm LEFT_ALT MINUS  &hm LEFT_ALT EQUAL       &hm LEFT_ALT N9    &hm LEFT_ALT N0    &kp SQT          &kp SQT        &kp GRAVE                  &kp LEFT_BRACKET           &kp RIGHT_BRACKET             &hm LEFT_CONTROL BACKSLASH
-                                                                &trans             &trans           &trans         &none
+&kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3       &kp NUMBER_4         &kp GRAVE        &kp PAGE_UP    &hm LEFT_COMMAND LEFT      &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT            &kp BACKSPACE
+&hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7  &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp PAGE_DOWN  &hm LEFT_SHIFT LEFT_ARROW  &hm LEFT_COMMAND DOWN      &hm LEFT_COMMAND RIGHT_ARROW  &hm LEFT_SHIFT ENTER
+&hm LEFT_ALT MINUS   &hm LEFT_ALT EQUAL       &hm LEFT_ALT N9    &hm LEFT_ALT N0      &kp SQT          &kp SQT        &kp GRAVE                  &kp LEFT_BRACKET           &kp RIGHT_BRACKET             &hm LEFT_CONTROL BACKSLASH
+                                                                 &trans               &trans           &trans         &none
             >;
         };
 
