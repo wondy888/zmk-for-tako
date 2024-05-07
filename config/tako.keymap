@@ -123,12 +123,12 @@
         };
 
         left_par {
-            bindings = <&kp LPAR>;
+            bindings = <&kp TAB>;
             key-positions = <13 12>;
         };
 
         right_par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp TAB>;
             key-positions = <16 17>;
         };
 
