@@ -40,7 +40,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L2_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&lt 4 SPACE>, <&to 0>;
+            bindings = <&lt 3 SPACE>, <&to 0>;
         };
 
         r1_tapDance: r1_tapDance {
@@ -54,7 +54,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "L1_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&lt 6 ESCAPE>, <&to 0>;
+            bindings = <&lt 5 ESCAPE>, <&to 0>;
         };
 
         r2_tapDance: r2_tapDance {
@@ -208,19 +208,10 @@
 
         default_layer_right {
             bindings = <
-&lt 2 Q             &kp W             &kp E             &kp R               &kp T      &kp Y    &kp U               &kp I         &kp O             &lt 2 P
-&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 5 G    &lt 5 H  &hm LEFT_COMMAND J  &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
-&hm LEFT_ALT Z      &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_ALT M      &r1_tapDance  &r2_tapDance      &kp SLASH
-                                                        &lt 6 SPACE         &mo 4      &mo 3    &lt 7 SPACE
-            >;
-        };
-
-        r_ctrl_layer {
-            bindings = <
-&lt 2 Q             &kp W           &kp E               &kp R               &kp T      &kp Y    &kp U               &kp I         &kp O             &lt 2 P
-&kp A               &kp S           &kp D               &hm LEFT_COMMAND F  &lt 5 G    &lt 5 H  &hm LEFT_COMMAND J  &none         &hm LEFT_SHIFT L  &kp LC(TAB)
-&hm LEFT_COMMAND Z  &hm LEFT_ALT X  &hm LEFT_CONTROL C  &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_ALT M      &r1_tapDance  &r2_tapDance      &lt 0 SLASH
-                                                        &trans              &trans     &trans   &trans
+&lt 1 Q             &kp W             &kp E             &kp R               &kp T      &kp Y    &kp U               &kp I             &kp O             &lt 1 P
+&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 4 G    &lt 4 H  &hm LEFT_COMMAND J  &hm LEFT_SHIFT K  &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
+&hm LEFT_ALT Z      &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_ALT M      &r1_tapDance      &r2_tapDance      &kp SLASH
+                                                        &lt 5 SPACE         &mo 3      &mo 2    &lt 6 SPACE
             >;
         };
 
@@ -262,10 +253,10 @@
 
         function_layer_left {
             bindings = <
-&hm LEFT_COMMAND P      &hm LEFT_ALT O      &hm LEFT_ALT I               &hm LEFT_COMMAND U  &kp Y     &kp F8    &kp F9      &kp F10           &kp F11            &kp F12
-&hm LEFT_COMMAND ENTER  &hm LSHIFT L        &hm LEFT_SHIFT K             &hm LEFT_COMMAND J  &kp H     &kp BSLH  &kp GRAVE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
-&hm LEFT_COMMAND TAB    &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND M  &kp N     &kp SQT   &kp F2      &kp COMMA         &kp PERIOD         &kp SLASH
-                                                                         &trans              &trans    &none     &kp INSERT
+&kp P                       &kp O               &kp I                &kp U               &kp Y     &kp F8    &kp F9      &kp F10           &kp F11            &kp F12
+&hm LEFT_COMMAND SEMICOLON  &hm LSHIFT L        &hm LEFT_SHIFT K     &hm LEFT_COMMAND J  &kp H     &kp BSLH  &kp GRAVE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
+&hm LEFT_COMMAND FSLH       &hm LEFT_ALT COMMA  &hm LEFT_ALT PERIOD  &hm LEFT_COMMAND M  &kp N     &kp SQT   &kp F2      &kp COMMA         &kp PERIOD         &kp SLASH
+                                                                     &trans              &trans    &none     &kp INSERT
             >;
         };
 
