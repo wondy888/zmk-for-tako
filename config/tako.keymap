@@ -208,10 +208,10 @@
 
         default_layer_right {
             bindings = <
-&lt 2 Q             &kp W             &kp E             &kp R               &kp T          &kp Y    &kp U               &kp I         &kp O             &lt 2 P
-&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 5 G        &lt 5 H  &hm LEFT_COMMAND J  &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
-&hm LEFT_ALT Z      &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V      &kp B          &kp N    &hm LEFT_ALT M      &r1_tapDance  &r2_tapDance      &kp SLASH
-                                                        &lt 6 LEFT_COMMAND  &lt 4 SPACE    &mo 3    &lt 7 SPACE
+&lt 2 Q             &kp W             &kp E             &kp R               &kp T      &kp Y    &kp U               &kp I         &kp O             &lt 2 P
+&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 5 G    &lt 5 H  &hm LEFT_COMMAND J  &lt 1 K       &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
+&hm LEFT_ALT Z      &hm LEFT_ALT X    &hm LEFT_ALT C    &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_ALT M      &r1_tapDance  &r2_tapDance      &kp SLASH
+                                                        &lt 6 SPACE         &mo 4      &mo 3    &lt 7 SPACE
             >;
         };
 
@@ -238,16 +238,16 @@
 &kp NUMBER_1         &kp NUMBER_2             &kp NUMBER_3       &kp NUMBER_4         &kp GRAVE        &kp PAGE_UP    &hm LEFT_COMMAND LEFT        &hm LEFT_CONTROL UP_ARROW  &hm LEFT_ALT RIGHT          &hm LEFT_CONTROL BACKSPACE
 &hm LEFT_COMMAND N5  &hm LEFT_SHIFT NUMBER_6  &hm LEFT_SHIFT N7  &hm LEFT_COMMAND N8  &kp BACKSLASH    &kp PAGE_DOWN  &hm LEFT_COMMAND LEFT_ARROW  &hm LEFT_SHIFT DOWN        &hm LEFT_SHIFT RIGHT_ARROW  &hm LEFT_COMMAND ENTER
 &hm LEFT_ALT MINUS   &hm LEFT_ALT EQUAL       &hm LEFT_ALT N9    &hm LEFT_ALT N0      &kp SQT          &kp SQT        &kp GRAVE                    &kp LEFT_BRACKET           &kp RIGHT_BRACKET           &hm LEFT_CONTROL BACKSLASH
-                                                                 &trans               &trans           &trans         &none
+                                                                 &trans               &trans           &trans         &trans
             >;
         };
 
         nav_layer_left {
             bindings = <
-&hm LEFT_CONTROL BACKSPACE  &hm LEFT_ALT LEFT          &hm LEFT_CONTROL UP_ARROW    &hm LEFT_COMMAND RIGHT  &kp PAGE_UP      &none  &kp N1     &kp N2     &kp N3  &kp N4
-&hm LEFT_COMMAND ENTER      &hm LEFT_SHIFT LEFT_ARROW  &hm LEFT_SHIFT DOWN          &hm LEFT_COMMAND RIGHT  &kp PAGE_DOWN    &none  &kp N5     &kp N6     &kp N7  &kp N8
-&hm LEFT_CONTROL TAB        &hm LEFT_SHIFT ESC         &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND GRAVE  &kp SQT          &none  &kp MINUS  &kp EQUAL  &kp N9  &kp N0
-                                                                                    &none                   &none            &none  &none
+&hm LEFT_CONTROL BACKSPACE  &hm LEFT_ALT LEFT          &hm LEFT_CONTROL UP_ARROW    &hm LEFT_COMMAND RIGHT  &kp PAGE_UP      &none   &kp N1     &kp N2     &kp N3  &kp N4
+&hm LEFT_COMMAND ENTER      &hm LEFT_SHIFT LEFT_ARROW  &hm LEFT_SHIFT DOWN          &hm LEFT_COMMAND RIGHT  &kp PAGE_DOWN    &none   &kp N5     &kp N6     &kp N7  &kp N8
+&hm LEFT_CONTROL TAB        &hm LEFT_SHIFT ESC         &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND GRAVE  &kp SQT          &none   &kp MINUS  &kp EQUAL  &kp N9  &kp N0
+                                                                                    &trans                  &trans           &trans  &trans
             >;
         };
 
@@ -265,16 +265,16 @@
 &hm LEFT_COMMAND P      &hm LEFT_ALT O      &hm LEFT_ALT I               &hm LEFT_COMMAND U  &kp Y     &kp F8    &kp F9      &kp F10           &kp F11            &kp F12
 &hm LEFT_COMMAND ENTER  &hm LSHIFT L        &hm LEFT_SHIFT K             &hm LEFT_COMMAND J  &kp H     &kp BSLH  &kp GRAVE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
 &hm LEFT_COMMAND TAB    &hm LEFT_SHIFT ESC  &hm LEFT_CONTROL LEFT_SHIFT  &hm LEFT_COMMAND M  &kp N     &kp SQT   &kp F2      &kp COMMA         &kp PERIOD         &kp SLASH
-                                                                         &none               &trans    &none     &kp INSERT
+                                                                         &trans              &trans    &none     &kp INSERT
             >;
         };
 
         function_layer_right {
             bindings = <
-&kp F1             &kp F2             &kp F3               &kp F4             &kp F12       &kp T  &kp R               &kp E             &kp W             &kp Q
-&hm LEFT_SHIFT F5  &hm LEFT_ALT F6    &hm LEFT_ALT F7      &hm LEFT_SHIFT F8  &kp F11       &kp G  &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
-&kp LEFT_BRACKET   &kp RIGHT_BRACKET  &hm LEFT_CONTROL F9  &kp F10            &kp DELETE    &kp B  &hm LEFT_COMMAND V  &hm LEFT_ALT C    &hm LEFT_ALT X    &hm LEFT_COMMAND Z
-                                                           &trans             &trans        &none  &none
+&kp F1             &kp F2             &kp F3               &kp F4             &kp F12       &kp T   &kp R               &kp E             &kp W             &kp Q
+&hm LEFT_SHIFT F5  &hm LEFT_ALT F6    &hm LEFT_ALT F7      &hm LEFT_SHIFT F8  &kp F11       &kp G   &hm LEFT_COMMAND F  &hm LEFT_SHIFT D  &hm LEFT_SHIFT S  &hm LEFT_COMMAND A
+&kp LEFT_BRACKET   &kp RIGHT_BRACKET  &hm LEFT_CONTROL F9  &kp F10            &kp DELETE    &kp B   &hm LEFT_COMMAND V  &hm LEFT_ALT C    &hm LEFT_ALT X    &hm LEFT_COMMAND Z
+                                                           &trans             &trans        &trans  &trans
             >;
         };
     };
