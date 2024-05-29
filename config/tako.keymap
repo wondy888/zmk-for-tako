@@ -107,6 +107,16 @@
             flavor = "tap-preferred";
             bindings = <&ew_con_macro>, <&kp>;
         };
+
+        pppp: pppp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "PPPP";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <5000>;
+            hold-while-undecided;
+        };
     };
 
     combos {
@@ -208,10 +218,10 @@
 
         default_layer_right {
             bindings = <
-&lt 1 Q             &hm LEFT_ALT W    &kp E             &kp R               &kp T      &kp Y    &kp U               &kp I               &hm LEFT_ALT O    &lt 1 P
-&hm LEFT_COMMAND A  &hm LEFT_SHIFT S  &hm LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 4 G    &lt 4 H  &hm LEFT_COMMAND J  &hm LEFT_SHIFT K    &hm LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
-&lt 1 Z             &l2_tapDance      &hm LEFT_ALT C    &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_ALT M      &hm LEFT_ALT COMMA  &r2_tapDance      &lt 1 FSLH
-                                                        &lt 5 SPACE         &mo 3      &mo 2    &lt 6 SPACE
+&lt 1 Q             &hm LEFT_ALT W      &kp E               &kp R               &kp T      &kp Y    &kp U               &kp I               &hm LEFT_ALT O      &lt 1 P
+&hm LEFT_COMMAND A  &pppp LEFT_SHIFT S  &pppp LEFT_SHIFT D  &hm LEFT_COMMAND F  &lt 4 G    &lt 4 H  &hm LEFT_COMMAND J  &pppp RSHFT K       &pppp LEFT_SHIFT L  &hm LEFT_COMMAND SEMICOLON
+&lt 1 Z             &l2_tapDance        &hm LEFT_ALT C      &hm LEFT_ALT V      &kp B      &kp N    &hm LEFT_ALT M      &hm LEFT_ALT COMMA  &r2_tapDance        &lt 1 FSLH
+                                                            &lt 5 SPACE         &mo 3      &mo 2    &lt 6 SPACE
             >;
         };
 
