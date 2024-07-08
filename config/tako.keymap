@@ -254,10 +254,10 @@
 
         num_layer {
             bindings = <
-&kp N1     &kp N2     &kp N3  &kp N4            &none             &none           &kp N1            &kp N2     &kp N3  &kp N4
-&kp N5     &kp N6     &kp N7  &kp N8            &none             &none           &kp N5            &kp N6     &kp N7  &kp N8
-&kp MINUS  &kp EQUAL  &kp N9  &kp N0            &none             &none           &kp MINUS         &kp EQUAL  &kp N9  &kp N0
-                              &kp LEFT_COMMAND  &kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp LEFT_COMMAND
+&kp N1     &kp N2             &kp N3             &kp N4            &none             &none           &kp N1            &kp N2             &kp N3             &kp N4
+&kp N5     &hm LEFT_SHIFT N6  &hm LEFT_SHIFT N7  &kp N8            &none             &none           &kp N5            &hm LEFT_SHIFT N6  &hm LEFT_SHIFT N7  &kp N8
+&kp MINUS  &kp EQUAL          &kp N9             &kp N0            &none             &none           &kp MINUS         &kp EQUAL          &kp N9             &kp N0
+                                                 &kp LEFT_COMMAND  &kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp LEFT_COMMAND
             >;
         };
 
